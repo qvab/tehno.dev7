@@ -1,0 +1,584 @@
+# Translation of Plugins - RSS for Yandex Zen - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - RSS for Yandex Zen - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-18 20:55:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - RSS for Yandex Zen - Development (trunk)\n"
+
+#: rss-for-yandex-zen.php:553
+msgid "Все функции сервиса Яндекс.Турбо были удалены из этого плагина (сервис активно развивается и добавляет новые опции - внедрять их поддержку сразу в оба плагина слишком накладно). <br /> Используйте отдельный специализированный плагин <a target='new' href='https://ru.wordpress.org/plugins/rss-for-yandex-turbo/'>RSS for Yandex Turbo</a>. "
+msgstr "Все функции сервиса Яндекс.Турбо были удалены из этого плагина (сервис активно развивается и добавляет новые опции - внедрять их поддержку сразу в оба плагина слишком накладно). <br /> Используйте отдельный специализированный плагин <a target='new' href='https://ru.wordpress.org/plugins/rss-for-yandex-turbo/'>RSS for Yandex Turbo</a>. "
+
+#: rss-for-yandex-zen.php:532
+msgid "Используется <tt>action</tt> на <tt>save_post</tt> (сработает в случае автонаполняемого сайта)."
+msgstr "Используется <tt>action</tt> на <tt>save_post</tt> (сработает в случае автонаполняемого сайта)."
+
+#: rss-for-yandex-zen.php:531
+msgid "Включение этой опции установит галку на \"Исключить эту запись из RSS\" по умолчанию при публикации новых записей."
+msgstr "Включение этой опции установит галку на \"Исключить эту запись из RSS\" по умолчанию при публикации новых записей."
+
+#: rss-for-yandex-zen.php:530
+msgid "По умолчанию исключать записи из ленты"
+msgstr "По умолчанию исключать записи из ленты"
+
+#: rss-for-yandex-zen.php:528
+msgid "Исключать по умолчанию:"
+msgstr "Исключать по умолчанию:"
+
+#: rss-for-yandex-zen.php:473
+msgid "Например, когда \"отрывок\" (цитата) записи содержит контент, которого нет в самой записи."
+msgstr "Например, когда \"отрывок\" (цитата) записи содержит контент, которого нет в самой записи."
+
+#: rss-for-yandex-zen.php:472
+msgid "Используйте эту опцию только в случае необходимости."
+msgstr "Используйте эту опцию только в случае необходимости."
+
+#: rss-for-yandex-zen.php:469
+msgid "Отрывок записей:"
+msgstr "Отрывок записей:"
+
+#: rss-for-yandex-zen.php:471
+msgid "Добавить в начало записей \"отрывок\""
+msgstr "Добавить в начало записей \"отрывок\""
+
+#: rss-for-yandex-zen.php:425
+msgid "Пример: <code>category:1,2,4</code> - записи рубрик с ID равным 1, 2 и 4 будут <strong style='color:red;'>добавлены</strong> в RSS-ленту."
+msgstr "Пример: <code>category:1,2,4</code> - записи рубрик с ID равным 1, 2 и 4 будут <strong style='color:red;'>добавлены</strong> в RSS-ленту."
+
+#: rss-for-yandex-zen.php:421
+msgid "Таксономии для добавления:"
+msgstr "Таксономии для добавления:"
+
+#: rss-for-yandex-zen.php:414
+msgid "Пример: <code>category:1,2,4</code> - записи рубрик с ID равным 1, 2 и 4 будут <strong style='color:red;'>исключены</strong> из RSS-ленты."
+msgstr "Пример: <code>category:1,2,4</code> - записи рубрик с ID равным 1, 2 и 4 будут <strong style='color:red;'>исключены</strong> из RSS-ленты."
+
+#: rss-for-yandex-zen.php:405
+msgid "По умолчанию в ленту попадают записи всех таксономий, кроме указанных ниже."
+msgstr "По умолчанию в ленту попадают записи всех таксономий, кроме указанных ниже."
+
+#: rss-for-yandex-zen.php:404
+msgid "Обязательно установите ниже таксономии для включения в ленту - иначе лента будет пустая."
+msgstr "Обязательно установите ниже таксономии для включения в ленту - иначе лента будет пустая."
+
+#: rss-for-yandex-zen.php:403
+msgid "Внимание! Будьте осторожны с этой настройкой!"
+msgstr "Внимание! Будьте осторожны с этой настройкой!"
+
+#: rss-for-yandex-zen.php:401
+msgid "Только указанные таксономии"
+msgstr "Только указанные таксономии"
+
+#: rss-for-yandex-zen.php:400
+msgid "Все таксономии, кроме исключенных"
+msgstr "Все таксономии, кроме исключенных"
+
+#: rss-for-yandex-zen.php:397
+msgid "Включить в RSS:"
+msgstr "Включить в RSS:"
+
+#: rss-for-yandex-zen.php:245
+msgid "Текущий URL RSS-ленты:"
+msgstr "Текущий URL RSS-ленты:"
+
+#: rss-for-yandex-zen.php:246
+msgid "Только буквы и цифры, не меняйте без необходимости."
+msgstr "Только буквы и цифры, не меняйте без необходимости."
+
+#: rss-for-yandex-zen.php:242
+msgid "Имя RSS-ленты:"
+msgstr "Имя RSS-ленты:"
+
+#: rss-for-yandex-zen.php:569
+msgid "cоздание RSS-ленты для сервиса Яндекс.Турбо."
+msgstr "cоздание RSS-ленты для сервиса Яндекс.Турбо."
+
+#: rss-for-yandex-zen.php:326
+msgid "Имя автора изображений:"
+msgstr "Имя автора изображений:"
+
+#: rss-for-yandex-zen.php:320
+msgid "Разметка \"автора\" для изображений (<tt>&lt;span class=\"copyright\">Автор&lt;/span></tt>)."
+msgstr "Разметка \"автора\" для изображений (<tt>&lt;span class=\"copyright\">Автор&lt;/span></tt>)."
+
+#: rss-for-yandex-zen.php:318
+msgid "Отключить указание автора"
+msgstr "Отключить указание автора"
+
+#: rss-for-yandex-zen.php:317
+msgid "Указать автора"
+msgstr "Указать автора"
+
+#: rss-for-yandex-zen.php:316
+msgid "Автор записи"
+msgstr "Автор записи"
+
+#: rss-for-yandex-zen.php:308
+msgid "Разметка \"описания\" для изображений (<tt>&lt;figcaption>Описание&lt;/figcaption></tt>)."
+msgstr "Разметка \"описания\" для изображений (<tt>&lt;figcaption>Описание&lt;/figcaption></tt>)."
+
+#: rss-for-yandex-zen.php:306
+msgid "Отключить описания"
+msgstr "Отключить описания"
+
+#: rss-for-yandex-zen.php:548
+msgid "Яндекс.Турбо"
+msgstr "Яндекс.Турбо"
+
+#: rss-for-yandex-zen.php:574
+msgid "относительные даты для записей за сегодня и вчера."
+msgstr "относительные даты для записей за сегодня и вчера."
+
+#: rss-for-yandex-zen.php:523
+msgid "Каждый новый шаблон для удаления должен начинаться с новой строки."
+msgstr "Каждый новый шаблон для удаления должен начинаться с новой строки."
+
+#: rss-for-yandex-zen.php:520
+msgid "Список удаляемого контента:"
+msgstr "Список удаляемого контента:"
+
+#: rss-for-yandex-zen.php:516
+msgid "Точные вхождения указанного контента будут удалены из записей в RSS-ленте."
+msgstr "Точные вхождения указанного контента будут удалены из записей в RSS-ленте."
+
+#: rss-for-yandex-zen.php:515
+msgid "Удалить указанный контент из RSS"
+msgstr "Удалить указанный контент из RSS"
+
+#: rss-for-yandex-zen.php:513
+msgid "Контент для удаления:"
+msgstr "Контент для удаления:"
+
+#: rss-for-yandex-zen.php:507
+msgid "По умолчанию в список включены все теги, о которых точно известно, что они не нравятся тех. поддержке Яндекс.Дзена."
+msgstr "По умолчанию в список включены все теги, о которых точно известно, что они не нравятся тех. поддержке Яндекс.Дзена."
+
+#: rss-for-yandex-zen.php:498
+msgid "Из контента записей будут удалены все указанные html-теги (<strong>включая сам контент этих тегов</strong>)."
+msgstr "Из контента записей будут удалены все указанные html-теги (<strong>включая сам контент этих тегов</strong>)."
+
+#: rss-for-yandex-zen.php:495
+msgid "Фильтр тегов (с контентом):"
+msgstr "Фильтр тегов (с контентом):"
+
+#: rss-for-yandex-zen.php:489 rss-for-yandex-zen.php:506
+msgid "Указывать классы, идентификаторы и прочее не требуется."
+msgstr "Указывать классы, идентификаторы и прочее не требуется."
+
+#: rss-for-yandex-zen.php:488 rss-for-yandex-zen.php:505
+msgid "Список удаляемых html-тегов через запятую."
+msgstr "Список удаляемых html-тегов через запятую."
+
+#: rss-for-yandex-zen.php:485 rss-for-yandex-zen.php:502
+msgid "Теги для удаления:"
+msgstr "Теги для удаления:"
+
+#: rss-for-yandex-zen.php:481
+msgid "Из контента записей будут удалены все указанные html-теги (<strong>сам контент этих тегов останется</strong>)."
+msgstr "Из контента записей будут удалены все указанные html-теги (<strong>сам контент этих тегов останется</strong>)."
+
+#: rss-for-yandex-zen.php:480 rss-for-yandex-zen.php:497
+msgid "Удалить указанные html-теги"
+msgstr "Удалить указанные html-теги"
+
+#: rss-for-yandex-zen.php:478
+msgid "Фильтр тегов (без контента):"
+msgstr "Фильтр тегов (без контента):"
+
+#: rss-for-yandex-zen.php:465
+msgid "Выберите используемый вами SEO-плагин. <br /> Если описание записи в SEO-плагине не установлено, то будет использовано стандартное описание записи (автогенерированное из первых 55 слов записи)."
+msgstr "Выберите используемый вами SEO-плагин. <br /> Если описание записи в SEO-плагине не установлено, то будет использовано стандартное описание записи (автогенерированное из первых 55 слов записи)."
+
+#: rss-for-yandex-zen.php:463
+msgid "All in One SEO Pack"
+msgstr "All in One SEO Pack"
+
+#: rss-for-yandex-zen.php:462
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: rss-for-yandex-zen.php:459
+msgid "SEO-плагин:"
+msgstr "SEO-плагин:"
+
+#: rss-for-yandex-zen.php:454
+msgid "Использовать данные из SEO-плагинов"
+msgstr "Использовать данные из SEO-плагинов"
+
+#: rss-for-yandex-zen.php:452
+msgid "Описания записей:"
+msgstr "Описания записей:"
+
+#: rss-for-yandex-zen.php:393
+msgid "В данной секции находятся продвинутые настройки. <br />Пожалуйста, будьте внимательны в этом разделе!"
+msgstr "В данной секции находятся продвинутые настройки. <br />Пожалуйста, будьте внимательны в этом разделе!"
+
+#: rss-for-yandex-zen.php:388
+msgid "Продвинутые настройки"
+msgstr "Продвинутые настройки"
+
+#: rss-for-yandex-zen.php:490 rss-for-yandex-zen.php:508
+msgid "Самозакрывающиеся теги вроде <tt>&lt;img src=\"...\" /></tt> и <tt>&lt;br /></tt> удалить нельзя."
+msgstr "Самозакрывающиеся теги вроде <tt>&lt;img src=\"...\" /></tt> и <tt>&lt;br /></tt> удалить нельзя."
+
+#: rss-for-yandex-zen.php:455
+msgid "В качестве описания записи (rss-тег <tt>&lt;description&gt;</tt>) будет использовано описание записи из выбранного SEO-плагина."
+msgstr "В качестве описания записи (rss-тег <tt>&lt;description&gt;</tt>) будет использовано описание записи из выбранного SEO-плагина."
+
+#: rss-for-yandex-zen.php:703
+msgid "Исключить эту запись из RSS"
+msgstr "Исключить эту запись из RSS"
+
+#: rss-for-yandex-zen.php:701
+msgid "Запись с контентом для взрослых"
+msgstr "Запись с контентом для взрослых"
+
+#: rss-for-yandex-zen.php:416 rss-for-yandex-zen.php:427
+msgid "Стандартные таксономии WordPress: рубрика: <code>category</code>, метка: <code>post_tag</code>."
+msgstr "Стандартные таксономии WordPress: рубрика: <code>category</code>, метка: <code>post_tag</code>."
+
+#: rss-for-yandex-zen.php:415 rss-for-yandex-zen.php:426
+msgid "Каждая новая таксономия должна начинаться с новой строки."
+msgstr "Каждая новая таксономия должна начинаться с новой строки."
+
+#: rss-for-yandex-zen.php:413 rss-for-yandex-zen.php:424
+msgid "Используемый формат: <strong>taxonomy_name:id1,id2,id3</strong>"
+msgstr "Используемый формат: <strong>taxonomy_name:id1,id2,id3</strong>"
+
+#: rss-for-yandex-zen.php:410
+msgid "Таксономии для исключения:"
+msgstr "Таксономии для исключения:"
+
+#: rss-for-yandex-zen.php:448
+msgid "Выберите нужный размер миниатюры (в списке находятся все зарегистрированные на сайте размеры миниатюр). "
+msgstr "Выберите нужный размер миниатюры (в списке находятся все зарегистрированные на сайте размеры миниатюр). "
+
+#: rss-for-yandex-zen.php:435
+msgid "В начало записи в RSS будет добавлена миниатюра записи (изображение записи)."
+msgstr "В начало записи в RSS будет добавлена миниатюра записи (изображение записи)."
+
+#: rss-for-yandex-zen.php:434
+msgid "Добавить миниатюру к записи"
+msgstr "Добавить миниатюру к записи"
+
+#: rss-for-yandex-zen.php:440
+msgid "Размер миниатюры в RSS:"
+msgstr "Размер миниатюры в RSS:"
+
+#: rss-for-yandex-zen.php:432
+msgid "Миниатюры в RSS:"
+msgstr "Миниатюры в RSS:"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/flector#content-plugins"
+msgstr "https://profiles.wordpress.org/flector#content-plugins"
+
+#. Author of the plugin/theme
+msgid "Flector"
+msgstr "Flector"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/rss-for-yandex-zen/"
+msgstr "https://wordpress.org/plugins/rss-for-yandex-zen/"
+
+#: rss-for-yandex-zen.php:669
+msgid "Тематика:"
+msgstr "Тематика:"
+
+#: rss-for-yandex-zen.php:573
+msgid "плагин добавляет иконки социальных сетей на каждое изображение в ваших записях."
+msgstr "плагин добавляет иконки социальных сетей на каждое изображение в ваших записях."
+
+#: rss-for-yandex-zen.php:572
+msgid "плагин очень красиво анимирует текст (шорткодами в записях и виджетах или PHP-кодом в файлах темы)."
+msgstr "плагин очень красиво анимирует текст (шорткодами в записях и виджетах или PHP-кодом в файлах темы)."
+
+#: rss-for-yandex-zen.php:570
+msgid "простое, но очень красивое облако меток."
+msgstr "простое, но очень красивое облако меток."
+
+#: rss-for-yandex-zen.php:571
+msgid "плагин позволит вам спрятать текст под тегами [spoiler]текст[/spoiler]."
+msgstr "плагин позволит вам спрятать текст под тегами [spoiler]текст[/spoiler]."
+
+#: rss-for-yandex-zen.php:565
+msgid "Возможно, что вам также будут интересны другие мои плагины:"
+msgstr "Возможно, что вам также будут интересны другие мои плагины:"
+
+#: rss-for-yandex-zen.php:564
+msgid "Если вам нравится мой плагин, то, пожалуйста, поставьте ему <a target=\"new\" href=\"https://wordpress.org/plugins/rss-for-yandex-zen/\"><strong>5 звезд</strong></a> в репозитории."
+msgstr "Если вам нравится мой плагин, то, пожалуйста, поставьте ему <a target=\"new\" href=\"https://wordpress.org/plugins/rss-for-yandex-zen/\"><strong>5 звезд</strong></a> в репозитории."
+
+#: rss-for-yandex-zen.php:561
+msgid "О плагине"
+msgstr "О плагине"
+
+#: rss-for-yandex-zen.php:380 rss-for-yandex-zen.php:540
+msgid "Сохранить настройки &raquo;"
+msgstr "Сохранить настройки &raquo;"
+
+#: rss-for-yandex-zen.php:371
+msgid "Нет (не для взрослых)"
+msgstr "Нет (не для взрослых)"
+
+#: rss-for-yandex-zen.php:370
+msgid "Да (для взрослых)"
+msgstr "Да (для взрослых)"
+
+#: rss-for-yandex-zen.php:367
+msgid "Контент для взрослых по умолчанию:"
+msgstr "Контент для взрослых по умолчанию:"
+
+#: rss-for-yandex-zen.php:363
+msgid "Тематика по умолчанию (если при публикации записи не задана конкретная тематика, то будет использована тематика по умолчанию)."
+msgstr "Тематика по умолчанию (если при публикации записи не задана конкретная тематика, то будет использована тематика по умолчанию)."
+
+#: rss-for-yandex-zen.php:361 rss-for-yandex-zen.php:696
+msgid "Путешествия"
+msgstr "Путешествия"
+
+#: rss-for-yandex-zen.php:360 rss-for-yandex-zen.php:695
+msgid "Природа"
+msgstr "Природа"
+
+#: rss-for-yandex-zen.php:359 rss-for-yandex-zen.php:694
+msgid "Юмор"
+msgstr "Юмор"
+
+#: rss-for-yandex-zen.php:358 rss-for-yandex-zen.php:693
+msgid "Фотографии"
+msgstr "Фотографии"
+
+#: rss-for-yandex-zen.php:357 rss-for-yandex-zen.php:692
+msgid "Дизайн"
+msgstr "Дизайн"
+
+#: rss-for-yandex-zen.php:356 rss-for-yandex-zen.php:691
+msgid "Еда"
+msgstr "Еда"
+
+#: rss-for-yandex-zen.php:355 rss-for-yandex-zen.php:690
+msgid "Хобби"
+msgstr "Хобби"
+
+#: rss-for-yandex-zen.php:354 rss-for-yandex-zen.php:689
+msgid "Дом"
+msgstr "Дом"
+
+#: rss-for-yandex-zen.php:353 rss-for-yandex-zen.php:688
+msgid "Авто"
+msgstr "Авто"
+
+#: rss-for-yandex-zen.php:352 rss-for-yandex-zen.php:687
+msgid "Здоровье"
+msgstr "Здоровье"
+
+#: rss-for-yandex-zen.php:351 rss-for-yandex-zen.php:686
+msgid "Психология"
+msgstr "Психология"
+
+#: rss-for-yandex-zen.php:350 rss-for-yandex-zen.php:685
+msgid "Знаменитости"
+msgstr "Знаменитости"
+
+#: rss-for-yandex-zen.php:349 rss-for-yandex-zen.php:684
+msgid "Мода"
+msgstr "Мода"
+
+#: rss-for-yandex-zen.php:348 rss-for-yandex-zen.php:683
+msgid "Культура"
+msgstr "Культура"
+
+#: rss-for-yandex-zen.php:347 rss-for-yandex-zen.php:682
+msgid "Кино"
+msgstr "Кино"
+
+#: rss-for-yandex-zen.php:346 rss-for-yandex-zen.php:681
+msgid "Литература"
+msgstr "Литература"
+
+#: rss-for-yandex-zen.php:345 rss-for-yandex-zen.php:680
+msgid "Музыка"
+msgstr "Музыка"
+
+#: rss-for-yandex-zen.php:344 rss-for-yandex-zen.php:679
+msgid "Игры"
+msgstr "Игры"
+
+#: rss-for-yandex-zen.php:343 rss-for-yandex-zen.php:678
+msgid "Наука"
+msgstr "Наука"
+
+#: rss-for-yandex-zen.php:342 rss-for-yandex-zen.php:677
+msgid "Технологии"
+msgstr "Технологии"
+
+#: rss-for-yandex-zen.php:341 rss-for-yandex-zen.php:676
+msgid "Спорт"
+msgstr "Спорт"
+
+#: rss-for-yandex-zen.php:340 rss-for-yandex-zen.php:675
+msgid "Экономика"
+msgstr "Экономика"
+
+#: rss-for-yandex-zen.php:339 rss-for-yandex-zen.php:674
+msgid "Общество"
+msgstr "Общество"
+
+#: rss-for-yandex-zen.php:338 rss-for-yandex-zen.php:673
+msgid "Война"
+msgstr "Война"
+
+#: rss-for-yandex-zen.php:337 rss-for-yandex-zen.php:672
+msgid "Политика"
+msgstr "Политика"
+
+#: rss-for-yandex-zen.php:336 rss-for-yandex-zen.php:671
+msgid "Происшествия"
+msgstr "Происшествия"
+
+#: rss-for-yandex-zen.php:333
+msgid "Тематика записей по умолчанию:"
+msgstr "Тематика записей по умолчанию:"
+
+#: rss-for-yandex-zen.php:329
+msgid "Автор изображений (если не заполнено, то будет использовано имя автора записи)."
+msgstr "Автор изображений (если не заполнено, то будет использовано имя автора записи)."
+
+#: rss-for-yandex-zen.php:313
+msgid "Автор изображений:"
+msgstr "Автор изображений:"
+
+#: rss-for-yandex-zen.php:309
+msgid "В случае отсутствия у изображения alt-атрибута для описания изображения будет использовано название записи."
+msgstr "В случае отсутствия у изображения alt-атрибута для описания изображения будет использовано название записи."
+
+#: rss-for-yandex-zen.php:305
+msgid "Использовать название записи"
+msgstr "Использовать название записи"
+
+#: rss-for-yandex-zen.php:304
+msgid "Использовать alt по возможности"
+msgstr "Использовать alt по возможности"
+
+#: rss-for-yandex-zen.php:301
+msgid "Описания изображений:"
+msgstr "Описания изображений:"
+
+#: rss-for-yandex-zen.php:297
+msgid "Автор записей (если не заполнено, то будет использовано имя автора записи)."
+msgstr "Автор записей (если не заполнено, то будет использовано имя автора записи)."
+
+#: rss-for-yandex-zen.php:294
+msgid "Автор записей:"
+msgstr "Автор записей:"
+
+#: rss-for-yandex-zen.php:290
+msgid "Типы записей в ленте через запятую (<strong>post</strong> - записи, <strong>page</strong> - страницы и т.д.).<br />У произвольных типов записей должно быть поле <strong>post_content</strong>!"
+msgstr "Типы записей в ленте через запятую (<strong>post</strong> - записи, <strong>page</strong> - страницы и т.д.).<br />У произвольных типов записей должно быть поле <strong>post_content</strong>!"
+
+#: rss-for-yandex-zen.php:287
+msgid "Типы записей:"
+msgstr "Типы записей:"
+
+#: rss-for-yandex-zen.php:280
+msgid "Количество записей:"
+msgstr "Количество записей:"
+
+#: rss-for-yandex-zen.php:275
+msgid "Язык статей издания в стандарте <a target='new' href='https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D1%8B_%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2'>ISO 639-1</a> (Россия - <strong>ru</strong>, Украина - <strong>uk</strong> и т.д.)"
+msgstr "Язык статей издания в стандарте <a target='new' href='https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D1%8B_%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2'>ISO 639-1</a> (Россия - <strong>ru</strong>, Украина - <strong>uk</strong> и т.д.)"
+
+#: rss-for-yandex-zen.php:272
+msgid "Язык:"
+msgstr "Язык:"
+
+#: rss-for-yandex-zen.php:268
+msgid "Описание издания."
+msgstr "Описание издания."
+
+#: rss-for-yandex-zen.php:265
+msgid "Описание:"
+msgstr "Описание:"
+
+#: rss-for-yandex-zen.php:261
+msgid "Адрес сайта издания."
+msgstr "Адрес сайта издания."
+
+#: rss-for-yandex-zen.php:258
+msgid "Ссылка:"
+msgstr "Ссылка:"
+
+#: rss-for-yandex-zen.php:254
+msgid "Название издания."
+msgstr "Название издания."
+
+#: rss-for-yandex-zen.php:251
+msgid "Заголовок:"
+msgstr "Заголовок:"
+
+#: rss-for-yandex-zen.php:209
+msgid "Быстро, качественно и дешево. Прайс-лист смотрите по адресу <a target='new' href='https://www.wpuslugi.ru/?from=yzen-plugin'>https://www.wpuslugi.ru/</a>."
+msgstr "Быстро, качественно и дешево. Прайс-лист смотрите по адресу <a target='new' href='https://www.wpuslugi.ru/?from=yzen-plugin'>https://www.wpuslugi.ru/</a>."
+
+#: rss-for-yandex-zen.php:208
+msgid "Или вы можете заказать у меня услуги по WordPress, от мелких правок до создания полноценного сайта."
+msgstr "Или вы можете заказать у меня услуги по WordPress, от мелких правок до создания полноценного сайта."
+
+#: rss-for-yandex-zen.php:205
+msgid "Поэтому не откажусь от небольшого пожертвования :)"
+msgstr "Поэтому не откажусь от небольшого пожертвования :)"
+
+#: rss-for-yandex-zen.php:204
+msgid "Я потратил много времени на разработку этого плагина."
+msgstr "Я потратил много времени на разработку этого плагина."
+
+#: rss-for-yandex-zen.php:203
+msgid "Привет, меня зовут <strong>Flector</strong>."
+msgstr "Привет, меня зовут <strong>Flector</strong>."
+
+#: rss-for-yandex-zen.php:201
+msgid "Купить мне чашку кофе :)"
+msgstr "Купить мне чашку кофе :)"
+
+#: rss-for-yandex-zen.php:199
+msgid "Вам нравится этот плагин ?"
+msgstr "Вам нравится этот плагин ?"
+
+#: rss-for-yandex-zen.php:188
+msgid "Настройки сохранены."
+msgstr "Настройки сохранены."
+
+#: rss-for-yandex-zen.php:87 rss-for-yandex-zen.php:218
+msgid "Настройки"
+msgstr "Настройки"
+
+#. Plugin Name of the plugin/theme
+msgid "RSS for Yandex Zen"
+msgstr "Яндекс.Дзен"
+
+#: rss-for-yandex-zen.php:373
+msgid "Если при публикации записи не выбрана эта опция, то будет использовано значение по умолчанию. Учтите, что в понимании Яндекса контент не для взрослых подразумевает записи, которые можно показывать подросткам от <strong>13</strong> лет."
+msgstr "Если при публикации записи не выбрана эта опция, то будет использовано значение по умолчанию. Учтите, что в понимании Яндекса контент не для взрослых подразумевает записи, которые можно показывать подросткам от <strong>13</strong> лет."
+
+#. Description of the plugin/theme
+msgid "Создание RSS-ленты для сервиса Яндекс.Дзен."
+msgstr "Создание RSS-ленты для сервиса Яндекс.Дзен."
+
+#: rss-for-yandex-zen.php:192
+msgid "Настройки плагина &#171;Яндекс.Дзен&#187;"
+msgstr "Настройки плагина &#171;Яндекс.Дзен&#187;"
+
+#: rss-for-yandex-zen.php:283
+msgid "Количество записей в ленте (по требованиям Яндекса минимально необходимо <strong>20</strong> записей)."
+msgstr "Количество записей в ленте (по требованиям Яндекса минимально необходимо <strong>20</strong> записей)."
+
+#: rss-for-yandex-zen.php:122 rss-for-yandex-zen.php:185
+msgid "Cheatin&#8217; uh?"
+msgstr "Мухлюешь?"

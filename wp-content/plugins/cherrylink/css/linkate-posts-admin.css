@@ -1,0 +1,121 @@
+/*
+ * Linkate Posts
+ * (c) Web factory Ltd, 2008 - 2016
+ */
+ 
+ 
+.linkateposts-tab-content{
+    background: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    margin-top: 0px;
+	  border-top: none;
+}
+
+.linkateposts-tabs-menu{
+	background: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    margin: 10px 20px 0 2px;
+    border-bottom: 2px solid #0085ba;
+}
+
+.linkateposts-tabs-menu li a{
+	font-size: 16px;
+    text-decoration: none;
+    padding: 18px 12px;
+    font-weight: 500;
+    color: #999;
+	box-sizing:content-box;
+}
+
+.linkateposts-tabs-menu li a:hover{
+	border:none;
+	border-bottom: 4px solid #0085ba;
+	color:#23282d;
+}
+
+.linkateposts-tabs-menu li a:focus{
+	outline: none;
+    outline-style:none;
+    box-shadow:none;
+}
+
+.linkateposts-tabs-menu li a.current{
+	color:#23282d;
+	border-bottom: 4px solid #0085ba;
+}
+
+
+
+.linkateposts-inner-table{ 
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+.linkateposts-inner-table tr td{
+	border:1px solid #CCC;
+    padding: 5px;
+}
+
+#cherry {
+  position: absolute;
+  right: 100px;
+  top: 67px;
+}
+
+.linkateposts-column-left {
+    width: 40%;
+    float: left;
+}
+
+.linkateposts-column-left textarea {
+    width:100%;
+}
+
+
+.linkateposts-column-right {
+    max-width: 55%;
+    float: right;
+    padding: 1em;
+    background: lavender;
+}
+
+.column-left-export {
+    width: 50%;
+    float: left;
+}
+
+.column-right-export {
+    max-width: 45%;
+    float: right;
+    padding: 1em;
+    background: navajowhite;
+}
+
+
+.linkateposts-column-right iframe {
+    float:right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.linkateposts-accessibility-good,
+.linkateposts-accessibility-warning {
+    padding: 1em;
+    color: white;
+}
+.linkateposts-accessibility-good h2,
+.linkateposts-accessibility-warning h2 {
+    color: white;
+}
+.linkateposts-accessibility-good a,
+.linkateposts-accessibility-warning a {
+    color: #66bce4;
+}
+.linkateposts-accessibility-good {
+    background: green;
+}
+.linkateposts-accessibility-warning {
+    background: red;
+}

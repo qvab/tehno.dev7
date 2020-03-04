@@ -1,0 +1,19 @@
+.sticky-code-block {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    padding-bottom:10px;
+}
+
+.sticky-ad-block {
+    top: 30px;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.third-sticky {
+    position: fixed;
+    top: 30;
+}

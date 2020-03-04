@@ -1,0 +1,570 @@
+# Translation of Plugins - Calculated Fields Form - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Calculated Fields Form - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-07-06 18:15:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Calculated Fields Form - Development (trunk)\n"
+
+#: cp_calculatedfieldsf_admin_int.php:58
+msgid "If the form is not loading in the public website, go to the settings page of the plugin through the menu option: \"Settings/Calculated Fields Form\", select the \"Classic\" option for the attribute: \"Script load method\", and press the \"Update\" button."
+msgstr "Если форма не отображается на сайте, перейдите к странице настроек плагина используя опцию меню: \"Настройки/Calculated Fields Form\", выберите опцию \"Нормальный\" для аттрибута: \"Метод загрузки скрипта\" и нажмите кнопку \"Обновить\"."
+
+#. Author URI of the plugin/theme
+msgid "http://codepeople.net"
+msgstr "http://codepeople.net"
+
+#. Author of the plugin/theme
+msgid "CodePeople.net"
+msgstr "CodePeople.net"
+
+#. Description of the plugin/theme
+msgid "Create forms with field values calculated based in other form field values."
+msgstr "Создание формы со значениями поля, вычисляемыми на основе значений других полей формы."
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.dwbooster.com/forms/calculated-fields-form"
+msgstr "http://wordpress.dwbooster.com/forms/calculated-fields-form"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:286
+msgid "UPDATE"
+msgstr "ОБНОВИТЬ"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:284
+msgid "* The forms are not loaded when website is being indexed by searchers."
+msgstr "* Формы не будут загружены, пока веб-сайт индексируется поисковиком"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:284
+msgid "Do not load the forms with crawlers"
+msgstr "Не загружать формы при поисковых ботах"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:282
+msgid "Activate Javascript Cache"
+msgstr "Активировать кеш Javascript"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:279
+msgid "* Update the charset if you are getting problems displaying special/non-latin characters. After updated you need to edit the special characters again."
+msgstr "* Обновите кодировку, если возникли проблемы с отображением специальных/нелатинских символов. После обновляются нужно снова отредактировать специальные символы."
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:275
+msgid "try this first"
+msgstr "попробуйте сначала это"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:274
+msgid "Keep current charset (Recommended)"
+msgstr "Сохранить текущую кодировку (рекомендовано)"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:272
+msgid "Character encoding"
+msgstr "Кодировка символов"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:270
+msgid "* Change the script load method if the form doesn't appear in the public website."
+msgstr "* Измените метод загрузки скрипта, если форма не появляется на сайте."
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:268
+msgid "Direct"
+msgstr "Прямой"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:267
+msgid "Classic (Recommended)"
+msgstr "Классический (рекомендовано)"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:265
+msgid "Script load method"
+msgstr "Метод загрузки скрипта"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:264
+msgid "<strong>Important!</strong>: Use this area <strong>only</strong> if you are experiencing conflicts with third party plugins, with the theme scripts or with the character encoding."
+msgstr "<strong>Важно!</strong>: Используйте эту область <strong>только</strong>, если возникают конфликты с другими плагинами, темами или кодировкой символов."
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:260
+msgid "Troubleshoot Area & General Settings"
+msgstr "Область устранения проблем и Общие настройки"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:252
+msgid "Item Name"
+msgstr "Имя элемента"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:248
+msgid "New Form"
+msgstr "Новая форма"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:236
+msgid "Delete"
+msgstr "Удалить"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:235
+msgid "Clone"
+msgstr "Клонировать"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:234
+msgid "Messages"
+msgstr "Сообщения"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:232
+msgid "Update"
+msgstr "Обновить"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:219
+msgid "Shortcode"
+msgstr "Шорт-код"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:219
+msgid "Options"
+msgstr "Параметры"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:219
+msgid "Form Name"
+msgstr "Название формы"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:219
+msgid "ID"
+msgstr "ID"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:213
+msgid "Form List / Items List"
+msgstr "Список форм / Список элементов"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:195
+msgid "Are you sure that you want to update these settings?"
+msgstr "Вы уверены, что хотите обновить эти настройки?"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:187
+msgid "Are you sure that you want to delete this item?"
+msgstr "Вы уверены, что хотите удалить этот элемент?"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:133
+msgid "Troubleshoot settings updated"
+msgstr "Настройки устранения неполадок обновлены"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:94
+msgid "Item duplicated/cloned"
+msgstr "Элемент дублирован/клонирован"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:86
+msgid "Item deleted"
+msgstr "Элемент удален"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:77
+msgid "Item updated"
+msgstr "Элемент обновлен"
+
+#: cp_calculatedfieldsf_admin_int_list.inc.php:71
+msgid "Item added"
+msgstr "Элемент добавлен"
+
+#: cp_calculatedfieldsf_admin_int.php:608
+msgid "Font"
+msgstr "Шрифт"
+
+#: cp_calculatedfieldsf_admin_int.php:601
+msgid "Background"
+msgstr "Фон"
+
+#: cp_calculatedfieldsf_admin_int.php:596
+msgid "Noise Length"
+msgstr "Продолжительность шума"
+
+#: cp_calculatedfieldsf_admin_int.php:594
+msgid "Noise"
+msgstr "Шум"
+
+#: cp_calculatedfieldsf_admin_int.php:588
+msgid "security code"
+msgstr "защитный код"
+
+#: cp_calculatedfieldsf_admin_int.php:227
+#: cp_calculatedfieldsf_admin_int.php:586
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: cp_calculatedfieldsf_admin_int.php:583
+msgid "Max font size"
+msgstr "Максимальный размер шрифта"
+
+#: cp_calculatedfieldsf_admin_int.php:581
+msgid "Min font size"
+msgstr "Минимальный размер шрифта"
+
+#: cp_calculatedfieldsf_admin_int.php:576
+msgid "Chars"
+msgstr "Символы"
+
+#: cp_calculatedfieldsf_admin_int.php:574
+msgid "Height"
+msgstr "Высота"
+
+#: cp_calculatedfieldsf_admin_int.php:572
+msgid "Width"
+msgstr "Ширина"
+
+#: cp_calculatedfieldsf_admin_int.php:561
+msgid "Use Captcha Verification?"
+msgstr "Использовать Каптчу?"
+
+#: cp_calculatedfieldsf_admin_int.php:557
+msgid "Captcha Verification"
+msgstr "Каптча"
+
+#: cp_calculatedfieldsf_admin_int.php:530
+msgid "Email field on the form"
+msgstr "Поле электронной почты в форме"
+
+#: cp_calculatedfieldsf_admin_int.php:520
+msgid "Send confirmation/thank you message to user?"
+msgstr "Отправить Подтверждение/Благодарственное сообщение пользователю?"
+
+#: cp_calculatedfieldsf_admin_int.php:516
+msgid "Email Copy to User"
+msgstr "Копия Email пользователю"
+
+#: cp_calculatedfieldsf_admin_int.php:507
+#: cp_calculatedfieldsf_admin_int.php:548
+msgid "Message"
+msgstr "Сообщение"
+
+#: cp_calculatedfieldsf_admin_int.php:502
+#: cp_calculatedfieldsf_admin_int.php:543
+msgid "HTML (use html in the textarea below)"
+msgstr "HTML (используйте html в текстовом поле ниже)"
+
+#: cp_calculatedfieldsf_admin_int.php:501
+#: cp_calculatedfieldsf_admin_int.php:542
+msgid "Plain Text (default)"
+msgstr "Обычный текст (по умолчанию)"
+
+#: cp_calculatedfieldsf_admin_int.php:497
+#: cp_calculatedfieldsf_admin_int.php:538
+msgid "Email format?"
+msgstr "Формат электронной почты?"
+
+#: cp_calculatedfieldsf_admin_int.php:493
+msgid "Thank you page (after sending the message)"
+msgstr "Страница благодарности (после отправки сообщения)"
+
+#: cp_calculatedfieldsf_admin_int.php:488
+#: cp_calculatedfieldsf_admin_int.php:525
+#: cp_calculatedfieldsf_admin_int.php:566
+msgid "No"
+msgstr "No"
+
+#: cp_calculatedfieldsf_admin_int.php:483
+msgid "Include additional information?"
+msgstr "Включить дополнительную информацию?"
+
+#: cp_calculatedfieldsf_admin_int.php:479
+#: cp_calculatedfieldsf_admin_int.php:534
+msgid "Email subject"
+msgstr "Тема Email "
+
+#: cp_calculatedfieldsf_admin_int.php:475
+msgid "Destination emails (comma separated)"
+msgstr "Адресаты Email (через запятую)"
+
+#: cp_calculatedfieldsf_admin_int.php:471
+msgid "\"From\" email"
+msgstr "Поле ОТ Email "
+
+#: cp_calculatedfieldsf_admin_int.php:467
+msgid "Form Processing / Email Settings"
+msgstr "Форма Обработка/Настройка электронной почты"
+
+#: cp_calculatedfieldsf_admin_int.php:402
+msgid "Note: Expiration date based in server time. Server time now is"
+msgstr "Примечание: Дата окончания срока по времени сервера. Сейчас время сервера "
+
+#: cp_calculatedfieldsf_admin_int.php:400
+#: cp_calculatedfieldsf_admin_int_list.inc.php:253
+msgid "Add"
+msgstr "Добавить"
+
+#: cp_calculatedfieldsf_admin_int.php:399
+msgid "Valid until"
+msgstr "Действует до"
+
+#: cp_calculatedfieldsf_admin_int.php:396
+msgid "Fixed Value"
+msgstr "Фиксированное значение"
+
+#: cp_calculatedfieldsf_admin_int.php:395
+msgid "Percent"
+msgstr "Проценты"
+
+#: cp_calculatedfieldsf_admin_int.php:394
+msgid "Discount"
+msgstr "Скидка"
+
+#: cp_calculatedfieldsf_admin_int.php:393
+msgid "Code"
+msgstr "Код"
+
+#: cp_calculatedfieldsf_admin_int.php:391
+msgid "Add new discount code"
+msgstr "Добавить новый код скидки"
+
+#: cp_calculatedfieldsf_admin_int.php:388
+msgid "This feature isn't available in this version."
+msgstr "Эта функция не доступна в этой версии."
+
+#: cp_calculatedfieldsf_admin_int.php:386
+msgid "Discount Codes"
+msgstr "Коды скидок"
+
+#: cp_calculatedfieldsf_admin_int.php:456
+msgid "Bill the user every 12 months"
+msgstr "Ежегодный счет пользователю"
+
+#: cp_calculatedfieldsf_admin_int.php:455
+msgid "Bill the user every 6 months"
+msgstr "Счет пользователю каждые 6 месяцев"
+
+#: cp_calculatedfieldsf_admin_int.php:454
+msgid "Bill the user every 3 months"
+msgstr "Счет пользователю каждые 3 месяца"
+
+#: cp_calculatedfieldsf_admin_int.php:453
+msgid "Bill the user every 1 month"
+msgstr "Ежемесячный счет пользователю"
+
+#: cp_calculatedfieldsf_admin_int.php:452
+msgid "One time payment (default option, user is billed only once)"
+msgstr "Одноразовый платеж (опция по умолчанию, пользователь оплачивает только один раз)"
+
+#: cp_calculatedfieldsf_admin_int.php:448
+msgid "Payment frequency"
+msgstr "Частота платежей"
+
+#: cp_calculatedfieldsf_admin_int.php:443
+msgid "Paypal language"
+msgstr "Язык PayPal "
+
+#: cp_calculatedfieldsf_admin_int.php:381
+msgid "Paypal product name"
+msgstr "Название продукта PayPal"
+
+#: cp_calculatedfieldsf_admin_int.php:376
+msgid "Minimum amount to charge. If the final price is lesser than this number, the base amount will be applied."
+msgstr "Минимальная сумма для оплаты. Если окончательная цена меньше, чем это число, будет применяться базовая сумма."
+
+#: cp_calculatedfieldsf_admin_int.php:375
+msgid "Base amount"
+msgstr "Базовая сумма"
+
+#: cp_calculatedfieldsf_admin_int.php:437
+msgid "Don't require any payment. Form is submitted skiping the PayPal page."
+msgstr "Не требует оплаты. Форма служит для предоставления доступа на страницу PayPal."
+
+#: cp_calculatedfieldsf_admin_int.php:436
+msgid "Let the user enter any amount at PayPal (ex: for a donation)"
+msgstr "Пользователь может ввести любую сумму на PayPal (например, для пожертвования)"
+
+#: cp_calculatedfieldsf_admin_int.php:434
+msgid "A $0 amount to pay means"
+msgstr "Сумма к оплате $0 "
+
+#: cp_calculatedfieldsf_admin_int.php:370
+msgid "Currency"
+msgstr "Валюта"
+
+#: cp_calculatedfieldsf_admin_int.php:365
+msgid "Request cost"
+msgstr "Запрос стоимости"
+
+#: cp_calculatedfieldsf_admin_int.php:429
+msgid "Paypal email"
+msgstr "Адрес электронной почты PayPal"
+
+#: cp_calculatedfieldsf_admin_int.php:423
+msgid "SandBox - PayPal testing sandbox area"
+msgstr "Песочница - Песочница для тестирования PayPal "
+
+#: cp_calculatedfieldsf_admin_int.php:422
+msgid "Production - real payments processed"
+msgstr "Производство - реальные платежи обработаны"
+
+#: cp_calculatedfieldsf_admin_int.php:420
+msgid "Paypal Mode"
+msgstr "Режим PayPal"
+
+#: cp_calculatedfieldsf_admin_int.php:415
+msgid "Enable Paypal Payments?"
+msgstr "Включить платежи Paypal?"
+
+#: cp_calculatedfieldsf_admin_int.php:410
+msgid "Paypal Payment Configuration"
+msgstr "Конфигурация оплаты через Paypal "
+
+#: cp_calculatedfieldsf_admin_int.php:356
+msgid "Form Processing and Payment Settings"
+msgstr "Обработка форм и настройки платежей"
+
+#: cp_calculatedfieldsf_admin_int.php:350
+#: cp_calculatedfieldsf_admin_int.php:629
+#: cp_calculatedfieldsf_admin_int_list.inc.php:293
+msgid "Request Custom Modifications"
+msgstr "Запрос пользовательских модификаций"
+
+#: cp_calculatedfieldsf_admin_int.php:341
+msgid "which has been added to your Upload/Insert Menu, just below the title of your Post/Page."
+msgstr "который был добавлен к меню Загрузить/Вставить, чуть ниже название Вашей Заметки/Страницы."
+
+#: cp_calculatedfieldsf_admin_int.php:339
+msgid "To insert this form in a post/page, use the dedicated icon"
+msgstr "Чтобы вставить эту форму в заметку/страницу, используйте выделенный значок"
+
+#: cp_calculatedfieldsf_admin_int.php:337
+msgid "Note"
+msgstr "Примечание"
+
+#: cp_calculatedfieldsf_admin_int.php:314
+msgid "\"over minimum\" text"
+msgstr "текст «больше минимума» "
+
+#: cp_calculatedfieldsf_admin_int.php:310
+msgid "\"under maximum\" text"
+msgstr "текст «меньше максимума» "
+
+#: cp_calculatedfieldsf_admin_int.php:306
+msgid "\"only digits\" text"
+msgstr "текст «только цифры»"
+
+#: cp_calculatedfieldsf_admin_int.php:302
+msgid "\"is number\" text"
+msgstr "текст «число» "
+
+#: cp_calculatedfieldsf_admin_int.php:298
+msgid "\"is valid date (dd/mm/yyyy)\" text"
+msgstr "текст \"допустимая дата (dd/mm/yyyy)\""
+
+#: cp_calculatedfieldsf_admin_int.php:294
+msgid "\"is valid date (mm/dd/yyyy)\" text"
+msgstr "текст \"допустимая дата (mm/dd/yyyy)\""
+
+#: cp_calculatedfieldsf_admin_int.php:289
+msgid "\"is valid captcha\" text"
+msgstr "текст \"допустимая каптча\""
+
+#: cp_calculatedfieldsf_admin_int.php:285
+msgid "\"is email\" text"
+msgstr "текст \"email\""
+
+#: cp_calculatedfieldsf_admin_int.php:281
+msgid "\"is required\" text"
+msgstr "текст «требуется» "
+
+#: cp_calculatedfieldsf_admin_int.php:275
+#: cp_calculatedfieldsf_admin_int.php:487
+#: cp_calculatedfieldsf_admin_int.php:524
+#: cp_calculatedfieldsf_admin_int.php:565
+msgid "Yes"
+msgstr "Да"
+
+#: cp_calculatedfieldsf_admin_int.php:271
+msgid "Use Validation?"
+msgstr "Использовать проверку?"
+
+#: cp_calculatedfieldsf_admin_int.php:267
+msgid "Validation Settings"
+msgstr "Параметры проверки"
+
+#: cp_calculatedfieldsf_admin_int.php:244
+msgid "- The styles can be applied into any of the CSS files of your theme or into the CSS file <em>\"calculated-fields-form\\css\\stylepublic.css\"</em>."
+msgstr "Стили могут быть заданы в любом из CSS файлов Вашей темы или в CSS файле <em>«calculated-fields-form\\css\\stylepublic.css»</em>."
+
+#: cp_calculatedfieldsf_admin_int.php:239
+msgid "Next button label (text)"
+msgstr "Кнопка Следующее (текст)"
+
+#: cp_calculatedfieldsf_admin_int.php:235
+msgid "Previous button label (text)"
+msgstr "Кнопка Предыдущее (текст)"
+
+#: cp_calculatedfieldsf_admin_int.php:231
+msgid "Define Texts"
+msgstr "Задать текст"
+
+#: cp_calculatedfieldsf_admin_int.php:226
+#: cp_calculatedfieldsf_admin_int.php:347
+#: cp_calculatedfieldsf_admin_int.php:626
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: cp_calculatedfieldsf_admin_int.php:204
+msgid "Field Settings"
+msgstr "Настройки полей"
+
+#: cp_calculatedfieldsf_admin_int.php:203
+msgid "Add a Field"
+msgstr "Добавить поле"
+
+#: cp_calculatedfieldsf_admin_int.php:94 cp_calculatedfieldsf_admin_int.php:100
+#: cp_calculatedfieldsf_admin_int.php:106
+#: cp_calculatedfieldsf_admin_int.php:112
+#: cp_calculatedfieldsf_admin_int.php:118
+msgid "These features aren't available in this version. Do you want to open the plugin's page to check other versions?"
+msgstr "Эти функции недоступны в этой версии. Вы хотите открыть страницу плагина, чтобы проверить другие версии?"
+
+#: cp_calculatedfieldsf_admin_int.php:49
+msgid "Form Builder"
+msgstr "Конструктор форм"
+
+#: cp_calculatedfieldsf_admin_int.php:47
+msgid "* Different form styles available on the tab Form Settings &gt;&gt; Form Template"
+msgstr "* Различные стили формы доступны на вкладке Настройки формы &gt;&gt;  Шаблон формы"
+
+#: cp_calculatedfieldsf_admin_int.php:45 cp_calculatedfieldsf_admin_int.php:205
+msgid "Form Settings"
+msgstr "Настройки формы"
+
+#: cp_calculatedfieldsf_admin_int.php:35
+msgid "Back to items list..."
+msgstr "Вернуться к списку элементов..."
+
+#. #-#-#-#-#  tmp-calculated-fields-form.pot (Calculated Fields Form 1.0.148) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: cp_calculatedfieldsf_admin_int.php:33
+#: cp_calculatedfieldsf_admin_int_list.inc.php:141
+msgid "Calculated Fields Form"
+msgstr "Форма Вычисляемых Полей"
+
+#: cp_calculatedfieldsf_admin_int.php:20
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: cp_calculatedfieldsf_admin_int.php:5
+#: cp_calculatedfieldsf_admin_int_list.inc.php:5
+msgid "Direct access not allowed."
+msgstr "Прямой доступ запрещен."
+
+#: cp_calculatedfieldsf.php:991
+msgid "<div class=\"error-text\">The data cannot be stored in database because has occurred an error with the database structure. Please, go to the plugins section and Deactivate/Activate the plugin to be sure the structure of database has been checked, and corrected if needed. If the issue persist, please <a href=\"http://wordpress.dwbooster.com/support\">contact us</a></div>"
+msgstr "<div class=\"error-text\">Данные не могут быть сохранены в базе данных, поскольку произошла ошибка в структуре базы данных. Пожалуйста, перейдите в раздел Плагины и деактивируйте/активируйте плагин, чтобы проверить структуру базы данных и исправить, если требуется. Если проблемы сохранятся, пожалуйста, <a href=\"http://wordpress.dwbooster.com/support\">свяжитесь с нами</a></div>"
+
+#: cp_calculatedfieldsf.php:782
+msgid "Create a JavaScript var from POST, GET, SESSION, or COOKIE var"
+msgstr "Создать переменную JavaScript из переменной POST, GET, SESSION, или COOKIE"
+
+#: cp_calculatedfieldsf.php:782 cp_calculatedfieldsf_admin_int.php:340
+msgid "Insert Calculated Fields Form"
+msgstr "Вставить Форму Вычисляемых Полей"
+
+#: cp_calculatedfieldsf.php:776 cp_calculatedfieldsf_admin_int.php:350
+#: cp_calculatedfieldsf_admin_int.php:629
+#: cp_calculatedfieldsf_admin_int_list.inc.php:293
+msgid "Help"
+msgstr "Справка"
+
+#: cp_calculatedfieldsf.php:774 cp_calculatedfieldsf_admin_int_list.inc.php:233
+msgid "Settings"
+msgstr "Настройки"
+
+#: cp_calculatedfieldsf.php:773
+msgid "Request custom changes"
+msgstr "Запросить изменения под себя"

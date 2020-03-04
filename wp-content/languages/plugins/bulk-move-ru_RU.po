@@ -1,0 +1,316 @@
+# Translation of Plugins - Bulk Move - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Bulk Move - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-01 04:29:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Bulk Move - Stable (latest release)\n"
+
+#: include/class-bulk-move-posts.php:492
+msgid "Select Term"
+msgstr "Выбрать термин"
+
+#: include/class-bulk-move-posts.php:493
+msgid "Remove Term"
+msgstr "Удалить термин"
+
+#: include/class-bulk-move-posts.php:526
+msgid "Select Post type"
+msgstr "Выбрать тип записей"
+
+#: include/class-bulk-move-posts.php:564
+msgid " Select Term&nbsp;&nbsp;"
+msgstr "Выбрать термин&nbsp;&nbsp;"
+
+#: include/class-bulk-move-posts.php:570
+msgid "Remove Term&nbsp;&nbsp;"
+msgstr "Удалить термин&nbsp;&nbsp;"
+
+#: include/class-bulk-move-posts.php:456 include/class-bulk-move-posts.php:549
+msgid "Select Taxonomy"
+msgstr "Выбрать таксономию"
+
+#: include/class-bulk-move-posts.php:450
+msgid "There are no taxonomies associated with \"%s\" post type."
+msgstr "Нет таксономий, связанных с типом записей \"%s\"."
+
+#: include/class-bulk-move-posts.php:541
+msgid "Select taxonomy to show its terms."
+msgstr "Выберите таксономию, чтобы увидеть её термины."
+
+#: include/class-bulk-move-posts.php:556
+msgid "Select terms to move its posts."
+msgstr "Выберите термины для перемещения их записей."
+
+#: include/class-bulk-move-posts.php:518
+msgid "Select the post type to show its custom taxonomy."
+msgstr "Выберите тип записей для отображения его произвольных таксономий."
+
+#: include/class-bulk-move-posts.php:486
+msgid "There are no terms associated with \"%s\" taxonomy."
+msgstr "В таксономии \"%s\" нет терминов."
+
+#: bulk-move.php:266
+msgid "Bulk Move By Custom Taxonomy"
+msgstr "Массовое перемещение внутри произвольной таксономии"
+
+#. translators: 1 number of posts deleted, 2 the taxonomy from which the posts
+#. were deleted
+#: include/class-bulk-move-posts.php:649
+msgid "Moved %1$d post from the selected %2$s taxonomy"
+msgid_plural "Moved %1$d posts from the selected %2$s taxonomy"
+msgstr[0] "Перемещена %1$d запись из выбранной таксономии %2$s"
+msgstr[1] "Перемещено %1$d записи из выбранной таксономии %2$s"
+msgstr[2] "Перемещено %1$d записей из выбранной таксономии %2$s"
+
+#: include/class-bulk-move-util.php:57
+msgid "There are no tags present. Add some tags to move posts based on tags."
+msgstr "Нет меток. Добавьте несколько меток для перемещения записей внутри меток."
+
+#. Description of the plugin/theme
+msgid "Move or remove posts in bulk from one category, tag or custom taxonomy to another"
+msgstr "Массовое перемещение или удаление из одной рубрики, метки или пользовательской таксономии в другую"
+
+#: include/class-bulk-move-posts.php:577
+msgid "If the post contains other terms, then"
+msgstr "Если записи назначены другие термины, тогда"
+
+#: bulk-move.php:129 bulk-move.php:142
+msgid "Cheatin&#8217; huh?"
+msgstr "Хакер, чтоли?"
+
+#: bulk-move.php:236
+msgid "About Plugin"
+msgstr "О плагине"
+
+#: bulk-move.php:246
+msgid "Plugin author's blog"
+msgstr "Блог автора плагина"
+
+#: bulk-move.php:267
+msgid "Debug Information"
+msgstr "Отладочная информация"
+
+#. Author URI of the plugin/theme
+msgid "http://sudarmuthu.com/"
+msgstr "http://sudarmuthu.com/"
+
+#. Author of the plugin/theme
+msgid "Sudar"
+msgstr "Sudar"
+
+#. Plugin URI of the plugin/theme
+msgid "http://sudarmuthu.com/wordpress/bulk-move"
+msgstr "http://sudarmuthu.com/wordpress/bulk-move"
+
+#. #-#-#-#-#  bulk-move-code.pot (Bulk Move 1.3.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: bulk-move.php:210
+msgid "Bulk Move"
+msgstr "Bulk Move"
+
+#: bulk-move.php:291
+msgid "WARNING: Posts moved once cannot be retrieved back. Use with caution."
+msgstr "ПРЕДУПРЕЖДЕНИЕ: Перемещенные записи нельзя будет возвратить назад. Используйте с осторожностью."
+
+#: include/class-bulk-move-posts.php:370
+msgid "Plugin Version "
+msgstr "Версия плагина"
+
+#: include/class-bulk-move-posts.php:366
+msgid "WordPress Version "
+msgstr "Версия WordPress"
+
+#: include/class-bulk-move-posts.php:362
+msgid "PHP Version "
+msgstr "Версия PHP"
+
+#: include/class-bulk-move-posts.php:374
+msgid "Available memory size "
+msgstr "Доступный объём памяти"
+
+#: include/class-bulk-move-posts.php:413
+msgid "An unknown error occurred while saving your options."
+msgstr "Произошла неизвестная ошибка при сохранении ваших настроек."
+
+#: include/class-bulk-move-util.php:81
+msgid "Posts"
+msgstr "Записи"
+
+#: include/class-bulk-move-util.php:76
+msgid "Remove Tag"
+msgstr "Удалить метку"
+
+#: include/class-bulk-move-posts.php:50
+msgid "Remove Category"
+msgstr "Удалить рубрику"
+
+#: bulk-move.php:276
+msgid "Bulk Move Posts"
+msgstr "Массовое перемещение записей"
+
+#: bulk-move.php:326
+msgid "Are you sure you want to move all the selected posts"
+msgstr "Вы уверены, что хотите переместить все выбранные записи"
+
+#: bulk-move.php:247
+msgid "Other Plugin's by Author"
+msgstr "Другие плагины автора"
+
+#: bulk-move.php:245
+msgid "Plugin Homepage/support"
+msgstr "Страница плагина/поддержка"
+
+#: bulk-move.php:244
+msgid "More information"
+msgstr "Больше информации"
+
+#: include/class-bulk-move-posts.php:379
+msgid "Custom value: "
+msgstr "Пользовательское значение:"
+
+#: include/class-bulk-move-posts.php:379
+msgid "Save"
+msgstr "Сохранить"
+
+#: include/class-bulk-move-posts.php:378
+msgid "Script time out "
+msgstr "Время выполнения скрипта"
+
+#: include/class-bulk-move-posts.php:410
+msgid "Max execution time was successfully saved as %s seconds."
+msgstr "Максимальное время выполнения было успешно сохранено: %s секунд."
+
+#: include/class-bulk-move-posts.php:358
+msgid "You also need need the following debug information."
+msgstr "Вам также потребуется следующая отладочная информация."
+
+#: include/class-bulk-move-posts.php:356
+msgid "If you are seeing a blank page after clicking the Bulk Move button, then "
+msgstr "Если вы видите пустую страницу после нажатия кнопки «Переместить», тогда "
+
+#: include/class-bulk-move-posts.php:357
+msgid "check out this FAQ"
+msgstr "ознакомьтесь с ответами на частые вопросы"
+
+#: include/class-bulk-move-posts.php:120
+msgid "Moved %d post from the selected category"
+msgid_plural "Moved %d posts from the selected category"
+msgstr[0] "Перемещена %d запись из выбранной рубрики"
+msgstr[1] "Перемещено %d записи из выбранной рубрики"
+msgstr[2] "Перемещено %d записей из выбранной рубрики"
+
+#: include/class-bulk-move-posts.php:25
+msgid "On the left side, select the category whose post you want to move. In the right side select the category to which you want the posts to be moved."
+msgstr "С левой стороны выберите рубрику, записи которой вы хотите переместить. С правой стороны выберите рубрику, в которую вы хотите переместить записи."
+
+#: include/class-bulk-move-posts.php:59 include/class-bulk-move-posts.php:164
+#: include/class-bulk-move-posts.php:274 include/class-bulk-move-posts.php:578
+msgid "Remove them"
+msgstr "Удалить их"
+
+#: include/class-bulk-move-posts.php:60 include/class-bulk-move-posts.php:165
+#: include/class-bulk-move-posts.php:275 include/class-bulk-move-posts.php:579
+msgid "Don't remove them"
+msgstr "Не удалять их"
+
+#: include/class-bulk-move-posts.php:147
+msgid "On the left side, select the tag whose post you want to move. In the right side select the tag to which you want the posts to be moved."
+msgstr "С левой стороны выберите метку, записи которой вы хотите переместить. С правой стороны выберите метку, в которую вы хотите переместить записи."
+
+#: include/class-bulk-move-posts.php:219
+msgid "Moved %d post from the selected tag"
+msgid_plural "Moved %d posts from the selected tag"
+msgstr[0] "Перемещена %d запись из выбранной метки"
+msgstr[1] "Перемещено %d записи из выбранной метки"
+msgstr[2] "Перемещено %d записей из выбранной метки"
+
+#: include/class-bulk-move-posts.php:65 include/class-bulk-move-posts.php:169
+#: include/class-bulk-move-posts.php:279 include/class-bulk-move-posts.php:585
+msgid "Bulk Move "
+msgstr "Переместить "
+
+#: bulk-move.php:264
+msgid "Bulk Move By Tag"
+msgstr "Массовое перемещение между меток"
+
+#: bulk-move.php:263
+msgid "Bulk Move By Category"
+msgstr "Массовое перемещение между рубрик"
+
+#: bulk-move.php:265
+msgid "Bulk Move Category By Tag"
+msgstr "Массовое перемещение из рубрики в метку"
+
+#: bulk-move.php:238
+msgid "This plugin allows you to move posts in bulk from selected categories to another category"
+msgstr "Этот плагин позволяет массово переместить записи из одной рубрики в другую"
+
+#: include/class-bulk-move-posts.php:247
+msgid "On the left side, select the tag whose post you want to move. In the right side select the category to which you want the posts to be moved."
+msgstr "С левой стороны выберите метку, записи которой вы хотите переместить. С правой стороны выберите рубрику, в которую вы хотите переместить записи."
+
+#: include/class-bulk-move-posts.php:265
+msgid "Choose Category"
+msgstr "Выбрать рубрику"
+
+#: include/class-bulk-move-posts.php:334
+msgid "Moved %d post from the selected tag to the new category."
+msgid_plural "Moved %d posts from the selected tag to the new category."
+msgstr[0] "Перемещена %d запись из выбранной метки в новую рубрику."
+msgstr[1] "Перемещено %d записи из выбранной метки в новую рубрику."
+msgstr[2] "Перемещено %d записей из выбранной метки в новую рубрику."
+
+#: include/class-bulk-move-posts.php:387
+msgid "If you are looking to delete posts in bulk, try out my "
+msgstr "Если вы хотите массово удалить записи, попробуйте мой "
+
+#: include/class-bulk-move-posts.php:387
+msgid "Bulk Delete Plugin"
+msgstr "плагин Bulk Delete"
+
+#: include/class-bulk-move-posts.php:379
+msgid "In php.ini"
+msgstr "в php.ini"
+
+#: include/class-bulk-move-posts.php:417
+msgid "Could not update the max execution time to %s, it was not numeric.  Enter the max number of seconds this script should run."
+msgstr "Не удалось обновить максимальное время выполнения до %s. Значение должно быть числом. Введите максимальное количество секунд, которое должен выполняться этот скрипт."
+
+#: bulk-move.php:316
+msgid "Version"
+msgstr "Версия"
+
+#: bulk-move.php:316
+msgid "by"
+msgstr "от"
+
+#: bulk-move.php:316
+msgid "plugin"
+msgstr "плагин"
+
+#: include/class-bulk-move-posts.php:19 include/class-bulk-move-posts.php:134
+#: include/class-bulk-move-posts.php:233 include/class-bulk-move-posts.php:506
+msgid "This section just got enabled. Kindly <a href = \"%1$s\">refresh</a> the page to fully enable it."
+msgstr "Этот раздел только что был включен. Пожалуйста, <a href = \"%1$s\">обновите</a> страницу, чтобы включить его полностью."
+
+#: bulk-move.php:401
+msgid "Manage"
+msgstr "Управление"
+
+#: bulk-move.php:330
+msgid "Please select least one option"
+msgstr "Пожалуйста, выберите хотя бы один вариант"
+
+#: include/class-bulk-move-posts.php:163
+msgid "If the post contains other tags, then"
+msgstr "Если записи назначены другие метки, тогда"
+
+#: include/class-bulk-move-posts.php:58 include/class-bulk-move-posts.php:273
+msgid "If the post contains other categories, then"
+msgstr "Если записи назначены другие рубрики, тогда"

@@ -1,0 +1,149 @@
+<?php
+    /**
+     * GeneratePress.
+     *
+     * Please do not make any edits to this file. All edits should be done in a child theme.
+     *
+     * @package GeneratePress
+     */
+add_filter( 'wpseo_next_rel_link', 'custom_change_wpseo_next_home_remove' );
+function custom_change_wpseo_next_home_remove( $link ) {
+    if ( is_front_page() || is_category() ) {
+        $link = '';
+    }
+    return $link;
+}
+
+    if (!defined('ABSPATH'))
+    {
+        exit; // Exit if accessed directly.
+    }
+
+    // Set our theme version.
+    define('GENERATE_VERSION', '2.3.2');
+
+    if (!function_exists('generate_setup'))
+    {
+        add_action('after_setup_theme', 'generate_setup');
+        /**
+         * Sets up theme defaults and registers support for various WordPress features.
+         *
+         * @since 0.1
+         */
+        function generate_setup()
+        {
+            // Make theme available for translation.
+            load_theme_textdomain('generatepress');
+
+            // Add theme support for various features.
+            add_theme_support('automatic-feed-links');
+            add_theme_support('post-thumbnails');
+            add_theme_support('post-formats', array('aside', 'image', 'video', 'quote', 'link', 'status'));
+            add_theme_support('woocommerce');
+            add_theme_support('title-tag');
+            add_theme_support('html5', array('search-form', 'comment-form', 'comment-list', 'gallery', 'caption'));
+            add_theme_support('customize-selective-refresh-widgets');
+            add_theme_support('align-wide');
+            add_theme_support('editor-color-palette', array());
+            add_theme_support('responsive-embeds');
+
+            add_theme_support('custom-logo', array(
+                'height'      => 70,
+                'width'       => 350,
+                'flex-height' => true,
+                'flex-width'  => true,
+            ));
+
+            // Register primary menu.
+            register_nav_menus(array(
+                                   'primary' => __('Primary Menu', 'generatepress'),
+                               ));
+
+            register_nav_menus(array(
+                                   'sidebar-menu' => __('Sidebar-menu', 'generatepress'),
+                               ));
+
+            register_nav_menus(array(
+                                   'footer-menu' => __('Footer menu', 'generatepress'),
+                               ));
+
+            /**
+             * Set the content width to something large
+             * We set a more accurate width in generate_smart_content_width()
+             */
+            global $content_width;
+            if (!isset($content_width))
+            {
+                $content_width = 1200; /* pixels */
+            }
+
+            // This theme styles the visual editor to resemble the theme style.
+            add_editor_style('css/admin/editor-style.css');
+        }
+    }
+
+    /**
+     * Get all necessary theme files
+     */
+    require get_template_directory() . '/inc/theme-functions.php';
+    require get_template_directory() . '/inc/defaults.php';
+    require get_template_directory() . '/inc/class-css.php';
+    require get_template_directory() . '/inc/css-output.php';
+    require get_template_directory() . '/inc/general.php';
+    require get_template_directory() . '/inc/customizer.php';
+    require get_template_directory() . '/inc/markup.php';
+    require get_template_directory() . '/inc/typography.php';
+    require get_template_directory() . '/inc/plugin-compat.php';
+    require get_template_directory() . '/inc/block-editor.php';
+    require get_template_directory() . '/inc/migrate.php';
+    require get_template_directory() . '/inc/deprecated.php';
+
+    if (is_admin())
+    {
+        require get_template_directory() . '/inc/meta-box.php';
+        require get_template_directory() . '/inc/dashboard.php';
+    }
+
+    /**
+     * Load our theme structure
+     */
+    require get_template_directory() . '/inc/structure/archives.php';
+    require get_template_directory() . '/inc/structure/comments.php';
+    require get_template_directory() . '/inc/structure/featured-images.php';
+    require get_template_directory() . '/inc/structure/footer.php';
+    require get_template_directory() . '/inc/structure/header.php';
+    require get_template_directory() . '/inc/structure/navigation.php';
+    require get_template_directory() . '/inc/structure/post-meta.php';
+    require get_template_directory() . '/inc/structure/sidebars.php';
+
+
+    // Big replacing old theme
+
+    function replace_text($text) {
+        $text = clear_string('/\[section label="(.*?)"\]|\[modal size="(.*?)"\]|\[\/modal\]|\[table style="(.*?)"\]|\[\/table\]|\[signoff icon="(.*?)"\]|\[\/signoff\]|\[\/advantages\]|\[advantages\]|\[\/disadvantages\]|\[disadvantages\]|\[badge\]|\[\/badge\]/', $text);
+
+        //$text = clear_string('/\[modal size="(.*?)"\]/', $text);
+        //$text = clear_string('/\[\/modal\]/', $text);
+
+        //$text = clear_string('/\[table style="(.*?)"\]/', $text);
+        //$text = clear_string('/\[\/table\]/', $text);
+
+        //$text = clear_string('/\[signoff icon="(.*?)"\]/', $text);
+        //$text = clear_string('/\[\/advantages\]/', $text);
+
+        return $text;
+    }
+
+    function clear_string($rule, $text)
+    {
+        preg_match_all($rule, $text, $output_array);
+
+        foreach ($output_array[0] as $search)
+        {
+            $text = str_replace($search, '', $text);
+        }
+
+        return $text;
+    }
+
+    add_filter('the_content', 'replace_text');

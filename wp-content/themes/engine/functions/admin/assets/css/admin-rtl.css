@@ -1,0 +1,10 @@
+/*rtl-specific css goes here*/
+#it_admin_panel{padding-right:0;padding-left:15px}
+#it_tab_content{padding:0 48px 10px 14px}
+.it_option_help,.item-edit{right:auto;left:0}
+#it_logo{float:right}
+#header_links{float:left}
+.it_demo_button{margin-left:0!important;margin-right:6px!important}
+.it_option_header{float:right}
+.it_admin_save{right:auto;left:60px}
+#ajax-feedback{right:auto;left:120px}

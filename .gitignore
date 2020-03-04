@@ -1,0 +1,9 @@
+/wp-content/cache/
+/wp-content/ai1wm-backups/
+/wp-content/uploads/wio_backup/
+/wp-content/uploads/cache/
+/wp-content/uploads/wrio/
+/wp-content/uploads/ulp/
+
+*.wpress
+/.idea

@@ -1,0 +1,429 @@
+{
+  "@context": "http:\/\/schema.org\/",
+  "@type": "Blog",
+  "headline": "Tehno.guru - портал о техники (вариант для EN)",
+  "description": "255",
+  "url": "https:\/\/tehno.guru\/en\/",
+  "blogPost": [
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-cordless-angle-grinder\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-cordless-angle-grinder\/",
+      "headline": "Best cordless angle grinder 2020  | Buyers’...",
+      "datePublished": "2020-01-17T19:17:41+03:00",
+      "dateModified": "2020-01-18T09:22:39+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2020\/01\/best-cordless-angle-grinder.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "articleSection": "Power tools",
+      "description": "What is the best cordless angle grinder? An angle grinder is an essential tool for various applications including regular residential, professional and even industrial grade. The most advanced models are designed to perform multiple operations from grinding to cutting, and many other finishing jobs.  The cordless angle grinders grant",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    },
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-angle-grinders\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-angle-grinders\/",
+      "headline": "Best Angle Grinder: Trusted Brands, Types | A Detailed Buyer’s Guide for Skillful Craftsmans &...",
+      "datePublished": "2020-01-14T12:16:06+03:00",
+      "dateModified": "2020-01-20T13:02:19+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2020\/01\/best-angle-grinder.jpg",
+        "width": 1000,
+        "height": 642
+      },
+      "articleSection": "Power tools",
+      "description": "What is the best angle grinder? A state-of-the-art angle grinder should become the number one tool among others in a tool set of a skillful craftsman or a contractor. It is proved by a high versatility as it can be used for numerous tasks. They include cutting at any",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    },
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-cordless-jigsaw\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-cordless-jigsaw\/",
+      "headline": "Best cordless jigsaw 2020 | Buyers’...",
+      "datePublished": "2020-01-08T09:56:42+03:00",
+      "dateModified": "2020-01-17T14:58:39+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2020\/01\/best-cordless-jigsaw.jpg",
+        "width": 800,
+        "height": 533
+      },
+      "articleSection": "Reviews",
+      "description": "What is the best cordless jigsaw? When it comes to making sophisticated shaped or curved cuts in wood, laminate, metal or ceramic in the absence or due to remoteness of a standard power outlet, there is nothing better than an advanced cordless jigsaw. This tool will be highly helpful",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    },
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-jigsaw\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-jigsaw\/",
+      "headline": "Best Jigsaw Buyers’ Guide...",
+      "datePublished": "2020-01-06T21:52:41+03:00",
+      "dateModified": "2020-01-17T15:22:57+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2020\/01\/best-jigsaw.jpg",
+        "width": 800,
+        "height": 533
+      },
+      "articleSection": "Power tools",
+      "description": "What is the best jigsaw? The advanced jigsaw is a highly useful tool in the arsenal of any craftsman both professional and enthusiast. It is primarily connected with a great number of applications it can be used for. In particular, it is essential for creation of any shapes in",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    },
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-miter-saw-stands\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-miter-saw-stands\/",
+      "headline": "Best Miter Saw Stands | 2020 Informative Buyer’s...",
+      "datePublished": "2020-01-06T16:55:51+03:00",
+      "dateModified": "2020-01-17T15:36:00+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2020\/01\/miter-saw-stand.jpg",
+        "width": 800,
+        "height": 496
+      },
+      "articleSection": "Outdoor power tools",
+      "description": "What is the best miter saw stand? The first thing to consider before buying a miter saw stand is adjustability. It should allow you to attach any miter saw, planer or any other bench tool. Make sure that the size of the saw you are going to use is",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    },
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-miter-saws\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-miter-saws\/",
+      "headline": "Best Miter Saws | 2020 Informative Buyer’s...",
+      "datePublished": "2019-12-27T01:54:12+03:00",
+      "dateModified": "2020-01-20T13:06:44+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2019\/12\/best-miter-saws.jpg",
+        "width": 800,
+        "height": 539
+      },
+      "articleSection": "Reviews",
+      "description": "What is the best miter saw? The first thing to consider when buying your miter saw is the power, which is measured in amps. Chose a model that has at least a 15 amp 3500 rpm motor. The second essential characteristic is the size of the blades, which determines",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    },
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-portable-table-saw\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-portable-table-saw\/",
+      "headline": "Best Portable Table Saw | Benchtop & Jobsite | Trusted Brands | Reviews | Buyers’...",
+      "datePublished": "2019-12-16T19:04:34+03:00",
+      "dateModified": "2020-01-17T15:44:43+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2019\/12\/best-portable-table-saw.jpg",
+        "width": 800,
+        "height": 533
+      },
+      "articleSection": "Reviews",
+      "description": "What is the best portable table saw? As the name says, the most distinctive feature of this tool is its portability. The latter means that the saw should be compact and lightweight. More than that, it should provide its operator with the best user-friendly features. Even if the portable",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    },
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-table-saw\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-table-saw\/",
+      "headline": "Best Table Saw: Benchtop, Jobsite, Contractor, Hybrid, Cabinet, and Sliding Table Saws...",
+      "datePublished": "2019-12-16T16:34:03+03:00",
+      "dateModified": "2020-01-17T15:49:52+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2019\/12\/best-table-saw.jpg",
+        "width": 800,
+        "height": 533
+      },
+      "articleSection": "Reviews",
+      "description": "What is the best table saw? The table saw is considered to be the most versatile among all wood processing machines. The best models should be capable to perform different functions like ripping, crosscutting, dado cutting, etc. The saw should be capable to satisfy all the requirements of the",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    },
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-60-gallon-air-compressors\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-60-gallon-air-compressors\/",
+      "headline": "Best 60-Gallon Air Compressors | 2020 Impressive Buyer’s...",
+      "datePublished": "2019-12-11T23:00:52+03:00",
+      "dateModified": "2020-01-17T15:54:21+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2019\/12\/best-60-gallon-air-compressors.jpg",
+        "width": 800,
+        "height": 593
+      },
+      "articleSection": "Power equipment",
+      "description": "What is the best 60-gallon air compressor? First of all, your choice depends on what kind of tool you are going to use. If you deal with heavy-duty tools, choose a model that provides more pressure and has a larger volume. Another thing to consider is horsepower. Typically, air",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    },
+    {
+      "@context": "http:\/\/schema.org\/",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tehno.guru\/en\/best-portable-air-compressors-for-trucks\/"
+      },
+      "url": "https:\/\/tehno.guru\/en\/best-portable-air-compressors-for-trucks\/",
+      "headline": "Best portable air compressors for trucks | Comparison of the 5 trusted...",
+      "datePublished": "2019-12-04T01:29:22+03:00",
+      "dateModified": "2020-01-17T16:50:25+03:00",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https:\/\/tehno.guru\/en\/#organization",
+        "name": "Tehno.guru - ведущий информационный портал о технике",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2018\/02\/main_logo-1.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/tehno.guru\/wp-content\/uploads\/2019\/12\/best-portable-air-compressors-for-trucks.jpg",
+        "width": 800,
+        "height": 642
+      },
+      "articleSection": "Power equipment",
+      "description": "What is the best portable air compressor for trucks? A portable air compressor will save you from any troubles with your truck tire both in on-road and off-road situations. However, to be on a really safe side, you have to select a reliable and a handy tool. The air",
+      "author": {
+        "@type": "Person",
+        "name": "Nataly",
+        "url": "https:\/\/tehno.guru\/en\/author\/nataly\/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/secure.gravatar.com\/avatar\/efd7aaf8f289bab0c60fd7d3e9f8e6bd?s=96&d=mm&r=g",
+          "height": 96,
+          "width": 96
+        }
+      }
+    }
+  ]
+}

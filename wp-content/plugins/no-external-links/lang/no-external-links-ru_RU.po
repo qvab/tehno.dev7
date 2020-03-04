@@ -1,0 +1,556 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-noexternallinks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 09:58+0300\n"
+"PO-Revision-Date: 2018-02-20 09:59+0300\n"
+"Last-Translator: LikeBtn <support@likebtn.com>\n"
+"Language-Team: jehy <fate@jehy.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: no-external-links-options.php:34 no-external-links-options.php:35
+msgid "Link masking for this post"
+msgstr "Настройка маскировки ссылок для этого поста"
+
+#: no-external-links-options.php:48
+msgid "Use default policy from plugin settings"
+msgstr "Использовать настройки маскировки по умолчанию"
+
+#: no-external-links-options.php:50
+msgid "Don`t mask links"
+msgstr "Не маскировать ссылки"
+
+#: no-external-links-options.php:58
+msgid "Options updated."
+msgstr "Настройки обновлены."
+
+#: no-external-links-options.php:85
+msgid "View options"
+msgstr "Настройки"
+
+#: no-external-links-options.php:88
+msgid "View Stats"
+msgstr "Статистика"
+
+#: no-external-links-options.php:104
+msgid ""
+"Statistic for plugin is disabled! Please, go to options page and enable it "
+"via checkbox \"Log all outgoing clicks\"."
+msgstr ""
+"Статистика для плагина отключена. Пожалуйста, зайдите в настройки и "
+"установите галочку \"Вести статистику по кликам на внешние ссылки\"."
+
+#: no-external-links-options.php:119
+msgid "View stats from"
+msgstr "Посмотреть статистику от"
+
+#: no-external-links-options.php:121
+msgid "to"
+msgstr "до"
+
+#: no-external-links-options.php:123
+msgid "View"
+msgstr "Смотреть"
+
+#: no-external-links-options.php:148
+msgid "No statistic for given period."
+msgstr "За указанный период времени статистики не найдено."
+
+#: no-external-links-options.php:156
+msgid ""
+"This plugins allows you to mask all external links and make them internal or "
+"hidden - using PHP redirect or special link tags and attributes. It does not "
+"change anything in the database - only replaces links on output. If you "
+"disabled this plugin and still have links masked - check your chaching "
+"plugins."
+msgstr ""
+"Этот плагин позволяет вам маскировать внешние ссылки и делать их внутренними "
+"или прятать при помощи перенаправлений или специальных тагов и атрибутов. Он "
+"ничего не меняет в базе сайта, только перехватывает и редактирует вывод "
+"пользователю. Если вы отключили этот плагин, а ваши ссылки всё ещё "
+"маскируются - скорее всего, это связано с вашим кеширующим плагином!"
+
+#: no-external-links-options.php:158
+msgid ""
+"If you need to make custom modifications for plugin - you can simply extend "
+"it, according to"
+msgstr ""
+"Если вам требуется сделать модификации в работе плагина - просто расширьте "
+"его по примеру"
+
+#: no-external-links-options.php:158 no-external-links-options.php:161
+msgid "this article."
+msgstr "этой статьи"
+
+#: no-external-links-options.php:161
+msgid "If you need to mask links in posts`s custom field, take a look at"
+msgstr ""
+"Если вам требуется маскировать ссылки из произвольных полей постов, сделайте "
+"это по примеру"
+
+#: no-external-links-options.php:167
+msgid "Global links masking settings"
+msgstr "Глобальные настройки маскировки ссылок"
+
+#: no-external-links-options.php:167
+msgid "You can also disable plugin on per-post basis"
+msgstr "Так же вы можете отключить плагин для конкретных постов"
+
+#: no-external-links-options.php:173
+msgid "What to mask"
+msgstr "Что маскировать"
+
+#: no-external-links-options.php:175
+msgid "What to exclude from masking"
+msgstr "Что не маскировать"
+
+#: no-external-links-options.php:177
+msgid "Common configuration"
+msgstr "Общие настройки"
+
+#: no-external-links-options.php:179
+msgid "Link encoding"
+msgstr "Шифрование ссылок"
+
+#: no-external-links-options.php:179
+msgid ""
+"Theese options are not secure enough if you want to protect your data from "
+"someone but are quite enough to make link not human-readable. Please choose "
+"one of them:"
+msgstr ""
+"Этих настроек недостаточно, если вы хотите защитить от кого-то данные, но "
+"вполне достаточно, чтобы сделать ссылки нечитаемыми для человека."
+
+#: no-external-links-options.php:181
+msgid "Configuration for javascript redirects (if enabled)"
+msgstr "Настройки редиректа через яваскрипт (если он выбран)"
+
+#: no-external-links-options.php:185
+msgid "Save Changes"
+msgstr "Сохранить измения"
+
+#: no-external-links-parser.php:156 no-external-links-parser.php:163
+#: no-external-links-parser.php:229
+msgid "Failed SQL: "
+msgstr "SQL запрос, вызвавший ошибку:"
+
+#: no-external-links-parser.php:156 no-external-links-parser.php:163
+#: no-external-links-parser.php:229
+msgid "Error was:"
+msgstr "Ошибка была:"
+
+#: no-external-links-parser.php:206 no-external-links-parser.php:278
+msgid "Redirecting..."
+msgstr "Перенаправляю..."
+
+#: no-external-links-parser.php:214
+msgid ""
+"You have been redirected through this website from a suspicious source. We "
+"prevented it and you are going to be redirected to our "
+msgstr ""
+"Вас перенеправили по этой сссылке из подозрительного источника. Мы "
+"предотвратили переход, и вы будете перенаправлены на наш "
+
+#: no-external-links-parser.php:214
+msgid "safe web site."
+msgstr "безопасный веб сайт."
+
+#: no-external-links-parser.php:293
+msgid ""
+"You were going to the redirect link, but something did not work properly."
+"<br>Please, click "
+msgstr ""
+"Вы должны были быть перенаправлены по ссылке, но что-то не получилось.<br> "
+"Пожалуйста, нажмите "
+
+#: no-external-links-parser.php:293
+msgid "HERE "
+msgstr "СЮДА "
+
+#: no-external-links-parser.php:293
+msgid " to go to "
+msgstr "чтобы перейти по ссылке "
+
+#: no-external-links-parser.php:293
+msgid " manually. "
+msgstr "вручную."
+
+#: no-external-links-parser.php:295
+msgid "Sorry, no url redirect specified. Can`t complete request."
+msgstr "Не был определён адрес, невозможно перенаправить."
+
+#: no-external-links-parser.php:333
+msgid "Can not get output buffer!"
+msgstr "Не получилось установить контроль над буфером вывода!"
+
+#: no-external-links-parser.php:333 no-external-links-parser.php:346
+msgid ""
+"WP No External Links Can`t use output buffer. Please, disable full masking "
+"and use other filters."
+msgstr ""
+"Плагину WP No External Links не удалось использовать буфер вывода WordPress. "
+"Пожалуйста, выключите опцию полной маскировки ссылок в настройках плагина и "
+"используйте другие опции."
+
+#: no-external-links-parser.php:346
+msgid "Output buffer empty!"
+msgstr "Буфер вывода пуст!"
+
+#: no-external-links.php:80
+msgid "Failed to update options!"
+msgstr "Не удалось обновить настройки!"
+
+#: no-external-links.php:89
+msgid "Mask links in posts and pages"
+msgstr "Маскировать ссылки в постах и на страницах"
+
+#: no-external-links.php:90
+msgid "Mask links in comments"
+msgstr "Маскировать ссылки в комментариях"
+
+#: no-external-links.php:91
+msgid "Mask comments authors`s homepage links"
+msgstr "Маскировать ссылки  авторов комментариев на свои страницы"
+
+#: no-external-links.php:92
+msgid "Mask links in your RSS post content"
+msgstr "Маскировать ссылки в ваших постах в RSS"
+
+#: no-external-links.php:92 no-external-links.php:93
+msgid "(may result in invalid RSS if used with some masking options)"
+msgstr ""
+"(может привести к невалидному RSS при использованию некоторых настроек "
+"маскировки ссылок)"
+
+#: no-external-links.php:93
+msgid "Mask links in RSS comments"
+msgstr "Маскировать ссылки в комментариях в RSS"
+
+#: no-external-links.php:94
+msgid "Add <b>rel=nofollow</b> for masked links (for google)"
+msgstr "Добавлять <b>rel=nofollow</b> в маскируемые ссылки (для google)"
+
+#: no-external-links.php:95
+msgid ""
+"Add <b>target=\"blank\"</b> for all links to other sites (links will open in "
+"new window)"
+msgstr ""
+"Добавлять <b>target=\"blank\"</b> для всех ссылок на другие сайты (ссылки "
+"будут открываться в новом окне)"
+
+#: no-external-links.php:96
+msgid ""
+"Surround masked links with <b>&lt;noindex&gt;link&lt;/noindex&gt;</b> tag "
+"(for yandex search engine)"
+msgstr ""
+"Окружать маскируемые ссылки тегом <b>&lt;noindex&gt;link&lt;/noindex&gt;</b> "
+"(для яндекса)"
+
+#: no-external-links.php:97
+msgid ""
+"Surround masked links with comment <b>&lt;!--noindex--&gt;link&lt;!--/"
+"noindex--&gt;</b> (for yandex search engine, better then noindex tag because "
+"valid)"
+msgstr ""
+"Окружать маскируемые ссылки комментарием <b>&lt;!--noindex--&gt;link&lt;!--/"
+"noindex--&gt;</b> (для яндекса, это лучшая альтернатива тегу noindex, "
+"поскольку HTML остаётся валидным)"
+
+#: no-external-links.php:99
+msgid "Link separator for redirects (default=\"goto\")"
+msgstr "Разделитель ссылок для редиректа (по молчанию = \"goto\")"
+
+#: no-external-links.php:100
+msgid ""
+"Exclude URLs that you don`t want to mask (all urls, beginning with those, "
+"won`t be masked)."
+msgstr ""
+"Укажите адреса, которые вы не хотите маскировать - все адреса, начинающиеся "
+"с указанных, не будут маскированы."
+
+#: no-external-links.php:100
+msgid "Put one adress on each line, including protocol prefix (for example,"
+msgstr "Указываайте по одному на каждой строчке (например,"
+
+#: no-external-links.php:100
+msgid "or"
+msgstr "или"
+
+#: no-external-links.php:100
+msgid "Skype, javascript and mail links are excluded by default."
+msgstr ""
+"Ссылки на скайп, яваскрипт и почту исключены из маскировки по умолчанию."
+
+#: no-external-links.php:100
+msgid "To exclude full protocol, just add line with it`s prefix - for example,"
+msgstr ""
+"Чтобы исключить весь протокол, добавьте строчку с его префиксом - например,"
+
+#: no-external-links.php:100
+msgid ""
+"Please note that domains with \"www\" and without it are considered "
+"different. So if you want to disable masking for \"pinterest.com\" and \"www."
+"pinterest.com\", you should specify both domains"
+msgstr ""
+"Пожалуйста, обратите внимание, что домены с \"www\" и без - это разные "
+"домены! То есть, если вы хотите выключить маскирование ссылок для домена "
+"\"pinterest.com\" и \"www.pinterest.com\" - вам нужно указать оба домена."
+
+#: no-external-links.php:101
+msgid ""
+"Mask ALL links on the website (can slow down your blog and conflict with "
+"some cache and other plugins. Not recommended)."
+msgstr ""
+"Маскировать ВСЕ ссылки на сайте (может замедлить ваш блог и конфликтовать с "
+"кеширующими плагинами. Не рекомендуется)."
+
+#: no-external-links.php:102
+msgid "Log all outgoing clicks."
+msgstr "Логировать все исходящие клики."
+
+#: no-external-links.php:103
+msgid "Days to keep clicks stats"
+msgstr "Время (в днях) хранения статистики по кликам"
+
+#: no-external-links.php:104
+msgid "Use javascript redirect"
+msgstr "Использовать яваскриптовый редирект"
+
+#: no-external-links.php:104
+msgid ""
+"if you want links with # symbol to redirect correctly, make sure to enable "
+"base64 encoding for links"
+msgstr ""
+"если вы хотите, чтобы ссылки со символов # работали корректно, включите "
+"кодировку ссылкок с помощью base64"
+
+#: no-external-links.php:105
+msgid "Redirect time (seconds)"
+msgstr "Время редиректа (в секундах)"
+
+#: no-external-links.php:106
+msgid ""
+"Custom redirect text. Use word \"LINKURL\" where you want to use redirect "
+"url. For example, <b>CLICK &lt;a href=\"LINKURL\"&gt;HERE NOW&lt;/a&gt;</b>"
+msgstr ""
+"Свой текст редиректа. Используйте слово \"LINKURL\"  где должен быть адрес. "
+"Например, <b>НАЖМИ &lt;a href=\"LINKURL\"&gt;СЮДА ПРЯМО СЕЙЧАС&lt;/a&gt;</b>"
+
+#: no-external-links.php:107
+msgid "Do not mask links when registered users visit site"
+msgstr ""
+"Не маскировать ссылки при выдаче сайта зарегистрированным пользователям"
+
+#: no-external-links.php:108
+msgid ""
+"Mask url with special numeric code. Be careful, this option may slow down "
+"your blog."
+msgstr ""
+"Маскировать ссылки цифровым кодом. Осторожно, это может замедлить ваш блог."
+
+#: no-external-links.php:109
+msgid "Completely remove links from your posts."
+msgstr "Полностью удалить ссылки из постов."
+
+#: no-external-links.php:110
+msgid "Turn all links into text."
+msgstr "Превратить все ссылки в текст."
+
+#: no-external-links.php:111
+msgid "Use base64 encoding for links."
+msgstr "Кодировать ссылки при помощи base64."
+
+#: no-external-links.php:112
+msgid ""
+"Debug mode (Adds comments lines like \"&lt;!--no-external-links debug: some "
+"info--&gt;\" to output. For testing only!)"
+msgstr ""
+"Режим отладки (Добавляет в код комментарии типа \"&lt;!--wpnoexternallinks "
+"debug: some info--&gt;\" . Только для тестирования!)"
+
+#: no-external-links.php:113
+msgid ""
+"Check for document referer and restrict redirect if it is not your own web "
+"site. Useful against spoofing attacks. User will be redirected to main page "
+"of your web site."
+msgstr ""
+"Проверять адрес, с которого пришёл пользователь, и зарпещать переход в "
+"случае, если он пришёл не с вашего веб сайта. Это защита от атак с подменой "
+"адреса. Пользователи будут перенаправлены на главную страницу вашего сайта."
+
+#: no-external-links.php:114
+msgid ""
+"Do not mask links which have <b>rel=\"follow\"</b> atribute and are posted "
+"by admin"
+msgstr ""
+"Не маскировать сссылки с атрибутом <b>rel=\"follow\"</b>, написанные "
+"администратором"
+
+#: no-external-links.php:206
+msgid "Custom parser file found but <b>custom_parser</b> class not defined!"
+msgstr ""
+"Найден файл расширения плагина, но класс <b>custom_parser</b> не определён!"
+
+#~ msgid "Feedback"
+#~ msgstr "Обратная связь"
+
+#~ msgid "Donate"
+#~ msgstr "Пожертвовать"
+
+#~ msgid "Choose masking type"
+#~ msgstr "Выберите тип маскировки"
+
+#~ msgid ""
+#~ "Default masking type is via 302 redirects. Please choose one of the "
+#~ "following mods if you do not like it:"
+#~ msgstr ""
+#~ "По умолчанию, при маскировке используются 302е редиректы. Пожалуйста, "
+#~ "выберите один из вариантов ниже, если вас это не устраивает:"
+
+#~ msgid ""
+#~ "Failed to make masked link. MySQL link table does not exist. Trying to "
+#~ "create table."
+#~ msgstr ""
+#~ "Не удалось сохранить маску ссылки. Таблица MySQL не существует. "
+#~ "Попытаемся её создать."
+
+#~ msgid "Failed to create table. Please, check mysql permissions."
+#~ msgstr "Не удалось создать таблицу. Пожалуйста, проверьте полномочия MySQL."
+
+#~ msgid "Table created."
+#~ msgstr "Таблица создана."
+
+#~ msgid "Failed to save statistic data. Trying to create table."
+#~ msgstr "Не удалось сохранить статистику. Пытаюсь создать таблицу."
+
+#~ msgid "No redirect"
+#~ msgstr "Не использовать редирект"
+
+#~ msgid ""
+#~ "Debug mode (Adds comments lines like \"&lt;!--wp-noexternallinks debug: "
+#~ "some info--&gt;\" to output. For testing only!)"
+#~ msgstr ""
+#~ "Режим отладки (Добавляет комментарии HTML вроде \"&lt;!--wp-"
+#~ "noexternallinks debug: какая-то информация--&gt;\"). Не должен быть "
+#~ "использован в нормальном режиме работы."
+
+#~ msgid ""
+#~ "Please note that domains with \"www\" and without it are considered "
+#~ "different. So if you want to disable masking for \"pinterest.com\" and "
+#~ "\"www.pineterst.com\", you should specify both domains"
+#~ msgstr ""
+#~ "Пожалуйста, обратите внимание, что домены с \"www\" и без - это разные "
+#~ "домены! То есть, если вы хотите выключить маскирование ссылок для домена "
+#~ "\"pinterest.com\" и \"www.pinterest.com\" - вам нужно указать оба домена."
+
+#~ msgid ""
+#~ "Please note that domain with \"www\" and without it are considered "
+#~ "different. So if you want to disable masking for \"pinterest.com\" and "
+#~ "\"www.pineterst.com\", you should specify both domains!"
+#~ msgstr ""
+#~ "Пожалуйста, обратите внимание, что домены с \"www\" и без - это разные "
+#~ "домены! То есть, если вы хотите выключить маскирование ссылок для домена "
+#~ "\"pinterest.com\" и \"www.pinterest.com\" - вам нужно указать оба домена."
+
+#~ msgid "View stats from "
+#~ msgstr "Просмотреть статистику с "
+
+#~ msgid " to "
+#~ msgstr "до "
+
+#~ msgid ""
+#~ "If you need to make custom modifications for plugin - you can simply "
+#~ "extend it, according to "
+#~ msgstr ""
+#~ "Если вам требуется сделать свои модификации в плагину - вы легко можете "
+#~ "расширить его функционал по примеру"
+
+#~ msgid "Mask comments authors`s links"
+#~ msgstr "Маскировать ссылки комментаторов"
+
+#~ msgid ""
+#~ "That plugins allows you to mask all external links and make them internal "
+#~ "or hidden - using PHP redirect or special link tags and attributes. Yeah, "
+#~ "by the way - it does not change anything in the base - only replaces "
+#~ "links on output.<br>P.S. It doesn`t mask internal and excluded links."
+#~ msgstr ""
+#~ "Этот плагин позволяет маскировать все внешние ссылки и делать их "
+#~ "внутренними или прятать, используя специальные редиректы и атрибуты. "
+#~ "Между прочим, в базе он ничего не правит - вся замена производится только "
+#~ "при выдаче документа пользователю. Плагин не маскирует внутренние а так "
+#~ "же исключённые из маскировки ссылки."
+
+#~ msgid "Plugin home page"
+#~ msgstr "Страница плагина"
+
+#~ msgid ""
+#~ "<h3>Global links masking settings</h3>(You can also disable plugin on per-"
+#~ "post basis)"
+#~ msgstr ""
+#~ "<h3>Общие настройки плагина</h3>(Так же можно указать индивидуальные для "
+#~ "каждого поста)"
+
+#~ msgid "Mask links in your posts"
+#~ msgstr "Маскировать ссылки в постах"
+
+#~ msgid ""
+#~ "Disable url rewrite of all links (you can be OK with just <b>noindex</b> "
+#~ "tag and <b>rel=nofollow</b>)"
+#~ msgstr "Не маскировать ссылки при помощи редиректов"
+
+#~ msgid "Link separator (default=\"goto\")"
+#~ msgstr "Разделитель ссылок (по умолчанию \"goto\")"
+
+#~ msgid ""
+#~ "Mask ALL links in document (can slow down your blog and conflict with "
+#~ "some cache and other plugins. Please use it on your own risk."
+#~ msgstr ""
+#~ "Маскировать ВСЕ ссылки на страницах (учтите, это может замедлить работу "
+#~ "вашего блога и вызвать конфликт с некоторыми другими плагинами. "
+#~ "Используйте на свой страх и риск.)"
+
+#~ msgid "Log all outgoing clicks"
+#~ msgstr "Вести статистику по кликам на внешние ссылки"
+
+#~ msgid "Do not use 302 redirect, only javascript redirect"
+#~ msgstr "Не использовать редиректы с 302 заголовками, только яваскрипт"
+
+#~ msgid ""
+#~ "Redirect time (seconds) when using javascript redirect instead of 302"
+#~ msgstr ""
+#~ "Время (в секундах), через которое произойдёт перенаправление пользователя "
+#~ "при отключенных 302"
+
+#~ msgid ""
+#~ "Custom redirect text (if 302 redirects disabled). Use word \"LINKURL\" "
+#~ "where you want to use redirect url. For example, <b>CLICK &lt;a href="
+#~ "\"LINK\"&gt;HERE NOW&lt;/a&gt;</b>"
+#~ msgstr ""
+#~ "Свой текст редиректа, если 302 отключены. Используйте слово \"LINKURL\" "
+#~ "там, где должен быть адрес для перехода. Например, так: <b>ЖМИ &lt;a href="
+#~ "\"LINKURL\"&gt;СЮДА&lt;/a&gt;</b>"
+
+#~ msgid ""
+#~ "Mask url with special numeric code. Be careful, this option may slow down "
+#~ "your blog. Option is design for easy and quick personal use, it is not "
+#~ "secure enough for commercial plans."
+#~ msgstr ""
+#~ "Маскировать ссылки цифровым кодом. Осторожно, данная опция может "
+#~ "замедлить скорость вашего блога. Она оптимизирована для быстрого "
+#~ "выполнения на личном веб сайте и не обладает достаточной защищённостью "
+#~ "для коммерческих систем."
+
+#~ msgid ""
+#~ "Use base64 encoding for links (no need for special mysql table but no "
+#~ "stats)."
+#~ msgstr ""
+#~ "Кодировать ссылки в base64 (не требует отдельной mysql таблицы, но и не "
+#~ "будет собирать статистику переходов)"
