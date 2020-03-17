@@ -20,27 +20,34 @@ if (!function_exists('generate_post_image')) {
     if (!has_post_thumbnail()) {
       return;
     }
+    // todo mishanin correction post main page
 
     // If we're not on any single post/page or the 404 template, we must be showing excerpts.
     if (!is_singular() && !is_404()) {
       if (!empty($sLink)) {
 
+
+        $sImage = get_the_post_thumbnail(
+          get_the_ID(),
+          apply_filters('generate_page_header_default_size', 'full'),
+          array(
+            'itemprop' => 'image',
+          )
+        );
+        $sImage = preg_replace_callback("|src=\"(.*?)\"|", function ($arMatch) {
+          $arMatch[1] = mishanin_resizeImage(parse_url($arMatch[1])["path"], 370, 205);
+          return 'src="'.$arMatch[1].'"';
+        }, $sImage);
         echo apply_filters('generate_featured_image_output', sprintf( // WPCS: XSS ok.
           '<div class="post-image">
 					<a href="%1$s" class="header-block">
 				
-				<h1>'.$sLink.'</h1>
+				<h2>'.$sLink.'</h2>
 						<div class="img">%2$s</div>
 					</a>
 				</div>',
           esc_url(get_permalink()),
-          get_the_post_thumbnail(
-            get_the_ID(),
-            apply_filters('generate_page_header_default_size', 'full'),
-            array(
-              'itemprop' => 'image',
-            )
-          )
+          $sImage
         ));
 
       } else {

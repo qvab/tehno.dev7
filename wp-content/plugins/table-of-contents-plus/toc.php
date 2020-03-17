@@ -1461,6 +1461,7 @@ if ( !class_exists( 'toc' ) ) :
 				$items = $this->extract_headings($find, $replace, $content);
 
 				if ( $items ) {
+
 					// do we display the toc within the content or has the user opted
 					// to only show it in the widget?  if so, then we still need to 
 					// make the find/replace call to insert the anchors
@@ -1519,7 +1520,6 @@ if ( !class_exists( 'toc' ) ) :
 						
 						// an empty class="" is invalid markup!
 						if ( !$css_classes ) $css_classes = ' ';
-						
 						// add container, toc title and list items
 						$html = '<div id="toc_container" class="' . $css_classes . '">';
 						if ( $this->options['show_heading_text'] ) {
@@ -1569,10 +1569,10 @@ if ( !class_exists( 'toc' ) ) :
 				}
 			}
 			else {
+
 				// remove <!--TOC--> (inserted from shortcode) from content
 				$content = str_replace('<!--TOC-->', '', $content);
 			}
-		
 			return $content;
 		}
 		

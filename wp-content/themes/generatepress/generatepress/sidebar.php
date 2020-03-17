@@ -37,14 +37,18 @@
             #category image
             $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id($postid), [140, 146] );
             $image = $featured_image[0];
-            $image = mishanin_resizeImage($image, 140, 146);
 
-            $icon_image = get_field('white_icon_128x128', $m);
+            if (!empty($featured_image)) {
+              $image = mishanin_resizeImage($image, 140, 146);
+              $icon_image = get_field('white_icon_128x128', $m);
 
-            if (empty($icon_image)) {
-              $icon_image = mishanin_resizeImage('/wp-content/uploads/2018/01/reyting_white-64x64.png', 64, 64);
+              if (empty($icon_image)) {
+                $icon_image = mishanin_resizeImage('/wp-content/uploads/2018/01/reyting_white-64x64.png', 64, 64);
+              } else {
+                $icon_image = mishanin_resizeImage($icon_image, 64, 64);
+              }
             } else {
-              $icon_image = mishanin_resizeImage($icon_image, 64, 64);
+              $icon_image = mishanin_resizeImage('/wp-content/uploads/2018/01/reyting_white-64x64.png', 64, 64);
             }
             $menu .=
                 '<li class="category-tile menu-item menu-item-type-taxonomy menu-item-object-category menu-item-' . $m->ID. '">
@@ -62,7 +66,6 @@
 
         $menu .= '</ul>';
         $menu .= '</div>';
-
         return $menu;
     }
 

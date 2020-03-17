@@ -31,7 +31,7 @@ get_header(); ?>
 
       $wp_query = new WP_Query(array(
         //	'category_name' => 'classes',
-        'posts_per_page' => '9',
+        'posts_per_page' => '9999',
         'meta_key' => 'rating',
         'meta_value' => 'main',
         'paged' => get_query_var('paged') ?: 1 // страница пагинации
@@ -48,7 +48,7 @@ get_header(); ?>
         ?>
       </div>
       <?php
-      /*
+/*
       echo '<nav id="nav-below" class="paging-navigation">';
       the_posts_pagination();
       echo '</nav>';
@@ -129,7 +129,7 @@ do_action('generate_after_primary_content_area');
       margin: 0 1.5% 2em;
     }
 
-    .list-post-home .post-image h1 {
+    .list-post-home .post-image h2 {
       font-size: 16px;
       position: absolute;
       bottom: 0;
@@ -141,7 +141,7 @@ do_action('generate_after_primary_content_area');
       width: 100%;
     }
 
-    .list-post-home .post-image a:hover h1 {
+    .list-post-home .post-image a:hover h2 {
       text-decoration: underline;
     }
 

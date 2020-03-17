@@ -24,8 +24,6 @@ foreach ($arPath as $val) {
 }
 $clearPath = implode("/", $clearPath);
 $sTotalCacheFile = empty($clearPath) ? "/_index_ssl.html" : "/" . $clearPath . "/_index_ssl.html";
-
-
 if (!file_exists($MW_CACHE->pathCache . "/" . $sTotalCacheFile)) {
   if (file_exists($MW_CACHE->pathTotalCache . $sTotalCacheFile)) {
     ob_start();

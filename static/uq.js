@@ -118,3 +118,8 @@ window.onload = function () {
 jQuery(window).resize(function () {
   imgSprite(jQuery);
 });
+
+if(document.location.protocol=='https:'){
+  var Tynt=Tynt||[];Tynt.push('cju8CgFAWr45BFacwqm_6r');
+  (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='https://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+}

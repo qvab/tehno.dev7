@@ -18,11 +18,13 @@ function amp_post_template_add_canonical( $amp_template ) {
 	<link rel="canonical" href="<?php echo esc_url( apply_filters('ampforwp_modify_rel_url',$amp_template->get( 'canonical_url' ) ) ); ?>" />
    <?php
 }
-add_action( 'amp_post_template_head', 'AMPforWP\\AMPVendor\\amp_post_template_add_meta_generator' );
-function amp_post_template_add_meta_generator() {
-	?>
-	<meta name="generator" content="AMP for WP <?php echo esc_attr(AMPFORWP_VERSION) ?>" />
-<?php
+if(false==ampforwp_get_setting('hide-amp-version-from-source')){
+	add_action( 'amp_post_template_head', 'AMPforWP\\AMPVendor\\amp_post_template_add_meta_generator' );
+	function amp_post_template_add_meta_generator() {
+		?>
+		<meta name="generator" content="AMP for WP <?php echo esc_attr(AMPFORWP_VERSION) ?>" />
+	<?php
+	}
 }
 
 add_action( 'amp_post_template_head', 'AMPforWP\\AMPVendor\\amp_post_template_add_cached_link' );
@@ -37,12 +39,31 @@ function amp_post_template_add_cached_link($amp_template) {
 		<link rel="preload" as="font" href="<?php echo esc_url($font_url); ?>" type="font/ttf" crossorigin>
 	<?php
 	}
+	?>
+	<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+		<?php
+		$scripts = $amp_template->get( 'amp_component_scripts', array() );
+		foreach ( $scripts as $element => $script ) :
+			if (strpos($script, "amp-experiment") || strpos($script, "amp-dynamic-css-classes") || strpos($script, "amp-story")) {
+		?>
+			<link rel="preload" as="script" href="<?php echo esc_url( $script ); ?>">
+		<?php }
+		endforeach;
+
+		// IF GOOGLE FONT EXIST.
+		$font_urls = $amp_template->get( 'font_urls', array() );
+		foreach ( $font_urls as $slug => $url ) :
+			if (strpos($url, "fonts.googleapis.com")) {
+		?>
+			<link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+	<?php } endforeach;
 }
 
 add_action( 'amp_post_template_head', 'AMPforWP\\AMPVendor\\amp_post_template_add_scripts' );
 function amp_post_template_add_scripts( $amp_template ) {
 	$scripts = $amp_template->get( 'amp_component_scripts', array() );
-	foreach ( $scripts as $element => $script ) : 
+	$scripts = apply_filters('ampforwp_set_amp_custom_type_script',$scripts);
+	foreach ( $scripts as $element => $script ) :
 		$custom_type = ($element == 'amp-mustache') ? 'template' : 'element'; ?>
 		<script custom-<?php echo esc_attr( $custom_type ); ?>="<?php echo esc_attr( $element ); ?>" src="<?php echo esc_url( $script ); ?>" async></script>
 	<?php endforeach; ?>
